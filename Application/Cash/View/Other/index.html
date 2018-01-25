@@ -17,22 +17,15 @@
                         </tr>
                     </thead>
 
-                    <tr>
-                        <td>now</td>
-                        <td>你的桌</td>
-                        <td>100000.98</td>
-                        <td>
-                            <div class="paybtn"><a href="{:U('orderList')}?oid={$wo_res.oid}&tid={$wo_res.table_id}">结账</a></div>
-                        </td>
-                    </tr>
+                    
                     <tbody>
                         <volist name="result" id="wo_res">
                             <tr>
-                                <td>{$wo_res.pay_time}</td>
+                                <td>{$wo_res.order_time}</td>
                                 <td>{$wo_res.table_name}</td>
                                 <td>{$wo_res.real_money}</td>
                                 <td>
-                                    <div class="paybtn"><a href="{:U('orderList')}?oid={$wo_res.oid}&tid={$wo_res.table_id}">结账</a></div>
+                                    <div class="paybtn"><a href="{:U('order/index')}?oid={$wo_res.oid}&tid={$wo_res.table_id}">结账</a></div>
                                 </td>
                             </tr>
                     </tbody>
@@ -58,26 +51,11 @@
                             <th>金额</th>
                         </tr>
                     </thead>
-                    <tr>
-                        <td>now</td>
-                        <td>你的桌</td>
-                        <td>100000.98</td>
-                    </tr>
-                    <tr>
-                        <td>now</td>
-                        <td>你的桌</td>
-                        <td>100000.98</td>
-                    </tr>
-                    <tr>
-                        <td>now</td>
-                        <td>你的桌</td>
-                        <td>100000.98</td>
-                    </tr>
-
+              
                     <tbody>
-                        <volist name="result" id="res">
+                        <volist name="result_nopay" id="res">
                             <tr>
-                                <td>{$res.pay_time}</td>
+                                <td>{$res.order_time}</td>
                                 <td>{$res.table_name}</td>
                                 <td>{$res.real_money}</td>
                             </tr>

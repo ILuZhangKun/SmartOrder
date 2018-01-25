@@ -18,7 +18,7 @@ Class BookController extends CommonController{
 	 	$res = $book->idToName($bookRes); 
 		$this->assign("bookInfo",$res);
 		//将座位列表显示到前台 
-		$tableTree = D("table")->getTableInfo();   
+		$tableTree = D("table")->getTableInfo();  
 		$this->assign("tableTree",$tableTree);
 		$this->assign("meta_title","预约");
 		$this->display("index");

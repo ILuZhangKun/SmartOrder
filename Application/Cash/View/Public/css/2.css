@@ -25,22 +25,30 @@ li#other:hover .nav-bar{
 	display: block !important;
 }
 
-
-/*员工管理*/
-.data-table {
-	width: 58%;
+/*员工管理模块*/
+/*员工管理table*/
+.employee{
+	width: 50%;
+	height: auto;
 	float: left;
-	margin-top: 100px;
-	margin: 10px 0;
+	margin-top: 50px;
+	margin-left: 7%;
+	/*overflow-y: auto;*/
 }
 .data-table table {
     width: 100%;
+    overflow-y: auto;
+    overflow-x:hidden;
     border-collapse: collapse;
 }
 .data-table caption {
     height: 30px;
     line-height: 30px;
     font-weight: 700;
+}
+.data-table thead th{
+	background-color: #45A8DF;
+	color: white;
 }
 .data-table thead th,
 .data-table tbody td {
@@ -50,39 +58,233 @@ li#other:hover .nav-bar{
     font-weight: 400;
 }
 
+/*员工管理修改div*/
+div.edit-employee{
+	display: none;
+}
+a:hover{
+	cursor: pointer;
+}
+.edit-employee{
+	position: absolute;
+	width: 60%;
+	height: 600px;
+	border: 1px solid #45A8DF;
+	background-color: #FFFFFF;
+	margin-top: -40%;
+	margin-left: 85%;
+	padding: 6% 10%;
+}
+/*员工管理add*/
+.add-employee{
+	border: 2px solid #45A8DF;
+	border-radius: 5px;
+	padding-left: 40px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	width: 30%;
+	height: auto;
+	float: right;
+	margin-top: 125px;
+	margin-right: 8%;
+}
+div.controls{
+	width: 100px;
+	height: 25px;
+	margin-bottom: 10px;
+}
+/*.btn{
+	margin-top: 10px;
+}*/
 
+/*菜单列表模块*/
 
+.menu-list {
+	width: 70%;
+	float: left;
+	margin-top: 3%;
+	margin-left: 14%;
+	/*margin: 4% auto;*/
+}
+.menu-thing{
+	width: 150px;
+	height: 30px;
+	line-height: 30px;
+	margin-right: 10px;
+	margin-bottom: 12px;
+}
 
+/*广告列表模块*/
+.ads-left{
+	width: 80%;
+	margin-top: 3%;
+	margin-left: 8%;
+}
+.ads-left table{
+	display: table;
+	width: 100%;
+	margin-bottom: 20px;
+}
+::-webkit-scrollbar{
+	display: none;
+}
+.adsListShow thead,
+.adsListShow tbody tr{
+	width: 100%;
+	display: table;
+	table-layout: fixed;
+}
+.adsListShow tbody{
+	display: block;
+	width: 100%;
+	height: auto;
+	max-height: 350px;
+	overflow-y: scroll;
+}
+.adsListShow{
+	/*width: 100%;*/
+}
+/*Kun:更多详情展示*/
+.moreDetailShow {
+    display: none;
+}
+.checkMoreDetail:hover .moreDetailShow {
+    display: block !important;
+    z-index: 2;
+    position: absolute;
+    top: 20%;
+    right: 19%;
+    width: 500px;
+    height: 300px;
+    line-height: 40px;
+    overflow: auto;
+    /*margin-top: -60px;
+    margin-left: -90px;*/
+    padding: 20px 15px 10px 20px;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    text-align: left;
+    font-size: 14px;
+    border-radius: 10px;
+}
+.checkMoreDetail:hover .moreDetailShow p {
+    border-bottom: 1px solid silver;
+}
+.checkMoreDetail:hover .moreDetailShow img {
+    width: 50%;
+    height: 50%;
+}
+.moreDetailShow{
+	display: none;
+    z-index: 2;
+    position: absolute;
+    top: 50px;
+    right: 7%;
+    width: 500px;
+    height: 450px;
+    line-height: 40px;
+    overflow: auto;
+    /*margin-top: -60px;
+    margin-left: -90px;*/
+    padding: 20px 15px 10px 20px;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    text-align: left;
+    font-size: 14px;
+    border-radius: 10px;
+}
 
+/*桌号管理模块*/
+/*新增厅号div*/
+.addhall{
+	display: none;
+}
+.addhall{
+	position: absolute !important;
+	width: 500px;
+	height: 250px;
+	padding: 50px;
+	background-color: #FFFFFF;
+	margin-top: -100px;
+	margin-left:350px
+}
 /*新增桌号*/
 .table-manage{
 	width: 80%;
+	height: auto;
 	margin: 0 auto;
-	margin-top: 100px;
+	margin-top: 4%;
 }
 .main-title {
-    padding-bottom: 20px;
+    padding-bottom: 10px;
     *zoom: 1;
 }
-.btn {
-    display: inline-block;
+.hallbtn{
+	display: inline-block;
+    width: 70px;
+    height: 38px;
     margin-right: 5px;
     padding: 6px 16px;
-    font-size: 14px;
-    line-height: 18px;
+    font-size: 16px;
+    line-height: 30px;
+    border-radius: 2px;
     color: #edffd1;
     text-align: center;
     vertical-align: middle;
     cursor: pointer;
     border: 0 none;
-	background-color: #4bbd00;
+	background-color: #40C402;
+	*outline: 0 none;
+	
+}
+.addbtn {
+    display: inline-block;
+    width: 70px;
+    height: 38px;
+    margin-right: 5px;
+    padding: 6px 16px;
+    font-size: 16px;
+    line-height: 30px;
+    border-radius: 2px;
+    color: #edffd1;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    border: 0 none;
+	background-color: #254444;
 	*outline: 0 none;
 }
-.btn:hover {
+.addbtn:hover {
     color: #ffffff;
     text-decoration: none;
-    background-color: #4cdb00;
+    background-color: #256547;
     border-bottom: 0 none;
+}
+
+.table-text,.textarea {
+	padding: 4px;
+	border: 1px solid #eeeeee;
+	background-color: #fff;
+	transition: all .3s linear;
+}
+.table-text {
+	width: 220px;
+	height: 20px;
+	vertical-align: middle;
+}
+input,button,textarea,select,option {
+	font-family:inherit;
+	font-size:100%;	
+	outline: 0;
+}
+textarea {
+	overflow: auto;
+	resize: none;
+}
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+    border: 0;
+    padding: 0;
 }
 /*桌号管理分支布局*/
 .cf,.nav,.container-span {
@@ -163,8 +365,8 @@ li#other:hover .nav-bar{
 .category .order,
 .category .name {
 	float: left;
-	height: 35px;
-	line-height: 35px;
+	height: 50px;
+	line-height: 50px;
 }
 .category .opt {
 	float: right;
@@ -195,7 +397,7 @@ li#other:hover .nav-bar{
 .category .fold .icon-fold,
 .category .fold .icon-unfold {
 	cursor: pointer;
-	background: url(../images/bg_icon.png) no-repeat;
+	background: url(../img/bg_icon.png) no-repeat;
 }
 .category .fold .icon-fold {
 	background-position: -100px -25px;
@@ -237,7 +439,7 @@ li#other:hover .nav-bar{
 	width: 55px;
 	background-position: -55px 0;
 	vertical-align: middle;
-	background-image: url(../images/tab_sign.png);
+	background-image: url(../img/tab_sign.png);
 	background-repeat: no-repeat;
 }
 .tab-sign {
@@ -245,7 +447,7 @@ li#other:hover .nav-bar{
 	margin-left: 15px;
 	height: 21px;
 	vertical-align: middle;
-	background-image: url(../images/tab_sign.png);
+	background-image: url(../img/tab_sign.png);
 	background-repeat: no-repeat;
 }
 .category .name .msg {
@@ -290,14 +492,14 @@ li#other:hover .nav-bar{
     display: none;
 }
 .category input{
-	height: 16px;
+	height: 35px;
 }
 .icon-add {
 	display: inline-block;
 	width: 16px;
 	height: 16px;
 	vertical-align: middle;
-	background: url(../images/bg_icon.png) no-repeat 0 0;
+	background: url(../img/bg_icon.png) no-repeat 0 0;
 }
 .add-on {
 	width: 20px;

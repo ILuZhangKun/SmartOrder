@@ -23,15 +23,13 @@ Class TableModel extends Model{
 	 */
 	Public function getTableInfo($date){
 		$tableModel = new \Admin\Model\TableModel();
-		$tableInfo = $tableModel ->GetDegree();  
-		// dump($tableInfo);die;
+		$tableInfo = $tableModel ->GetDegree();
 		for ($i=0; $i <count($tableInfo); $i++) { 
 			for ($j=0; $j <count($tableInfo[$i]["table"]) ; $j++) { 
 				$id=$tableInfo[$i]["table"][$j]["id"];
 				//查询检测该桌号是否被预定
 				$conBook = array("book_table"=>$id,"book_status"=>0,"book_day"=>$date);
 				$book=M("book")->where($conBook)->field("book_day,book_time,book_name")->select();
-				// dump(M("book")->getLastSql());
 				//获得预订信息
 				if($book!=null){
 					$tableInfo[$i]["table"][$j]["type"]="book";

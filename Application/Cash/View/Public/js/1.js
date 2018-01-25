@@ -90,7 +90,7 @@ $(document).ready(function() {
 		var cId = $(this).parent().attr("id");
 		var cName = $(this).parent().attr("type");
 		$("a[type='book']").attr("href","../book/index?cid="+cId+"&cname="+cName+"&tableid="+tableId+"&tablename="+tableName);
-		$("a[type='order']").attr("href","../order/index");
+		$("a[type='order']").attr("href","../order/getSearch?tableid="+tableId);
 		$("a[type='other']").attr("href","../other/index");
 	});
 	//弹框取消事件
@@ -115,6 +115,7 @@ $(document).ready(function() {
 	$("#inputCash").click(function(){
 		$(".inputCash").attr("style","display:block");
 	});
+	//支付账单
 	$(".submitMoney").click(payOrder);
 	//预约设定
 	$("#RVsubmit").click(booking);
@@ -251,25 +252,43 @@ function payOrder(){
 			$("#alert").show();
 			$("#alert").find(".modal-body").html("请输入实收金额");
 		},3000);
-	}else{
+	}else
+	{
 		totleMoney=$("#totleMoney").html().split("</strong>")[1];
+		var oid=$("#oid").val();
 		var change = realMoney-totleMoney;
 		$(".takeChange").html("<strong>找零：</strong>"+change+"元");
 		//ajax修改order表
 		var tableId = $(".payTable").attr("class").split(" ")[1];
-		var result = yysAjaxRequest("POST",{tableid:tableId,realMoney:realMoney,paytype:"现金结账"},"payBill");
-		if(result=="success"){
+		var result = yysAjaxRequest("POST",{tableid:tableId,realMoney:realMoney,paytype:"现金结账",oid:oid},"payBill");
+		if(result=="success")
+		{
 			$("#alert").show();
 			$("#alert").find(".modal-body").html("成功买单！");
 			setTimeout(function(){
 				window.location.href = "index";
 			},3000);
-		}else{
-			console.log(result);
-			setTimeout(function(){
+		}
+		else if(result=="pay_error")
+		{
 				$("#alert").show();
-				$("#alert").find(".modal-body").html("遇到点小问题！请重新查询买单!");
-			},5000);
+				$("#alert").find(".modal-body").html("支付失败，请重新支付或手动记账支付!");
+				setTimeout(function(){
+				window.location.href = "index";
+				},5000);
+		}else if(result=="syn_error"){
+				$("#alert").show();
+				$("#alert").find(".modal-body").html("支付成功，本地同步失败！");
+				setTimeout(function(){
+				window.location.href = "index";
+				},5000);
+		}
+		else{
+				$("#alert").show();
+				$("#alert").find(".modal-body").html("支付成功，云端已同步，无需再次同步！");
+				setTimeout(function(){
+				window.location.href = "index";
+				},5000);
 		}
 	}
 }

@@ -17,7 +17,6 @@ var globalData001;
 *****************/
  function yysAjaxRequest(method,data,url){
  	console.log(url);
- 	// alert("??");
 	$.ajax({
 		type:method,
 		url:url,

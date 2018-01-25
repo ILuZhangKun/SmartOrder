@@ -1,10 +1,18 @@
 <?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html>
 <html> 
 <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="Content-Type" content="text/html, charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+	<meta name="description" content="A touchable jQuery lightbox plugin for desktop, mobile and tablet" />
+    
     <title><?php echo ($meta_title); ?></title>
     <link rel="stylesheet" type="text/css" href="/SmartOrder/Application/Cash/View/Public/css/1.css">
     <link rel="stylesheet" type="text/css" href="/SmartOrder/Application/Cash/View/Public/css/2.css">
+    
+    <link rel="stylesheet" href="http://swipebox.brutaldesign.com/css/style.css">
+	<link rel="stylesheet" href="/SmartOrder/Application/Cash/View/Public/css/swipebox.css">
+    
     <!--<link rel="stylesheet" type="text/css" href="/SmartOrder/Application/Cash/View/Public/css/module.css">-->
     <!--<link rel="stylesheet" type="text/css" href="/SmartOrder/Application/Cash/View/Public/css/style.css">-->
     <link rel="stylesheet" type="text/css" href="/SmartOrder/Application/Cash/View/Public/css/bootstrap.min.css">
@@ -16,6 +24,11 @@
     <script src="/SmartOrder/Application/Cash/View/Public/datetimepicker/js/locales/bootstrap-datetimepicker.zh-CN.js"></script>
     <script src="/SmartOrder/Application/Cash/View/Public/js/somefunction.js"></script>
     <script src="/SmartOrder/Application/Cash/View/Public/js/1.js"></script>
+    
+   <!-- <script src="/SmartOrder/Application/Cash/View/Public/js/jquery-1.9.0.min.js"></script>-->
+	<script src="/SmartOrder/Application/Cash/View/Public/js/ios-orientationchange-fix.js"></script>
+	<script src="/SmartOrder/Application/Cash/View/Public/js/jquery.swipebox.min.js"></script>
+    <!--<script type="text/javascript" src="/SmartOrder/Application/Cash/View/Public/js/jquery-2.0.3.min.js"></script>-->
     <script>
     $(function () {
       $('[data-toggle="tooltip"]').tooltip()
@@ -68,9 +81,8 @@
                 </li>
                 <li id="manage">
                     <div class="text">管理</div>
-                    <div class="nav-bar">
+                    <div class="nav-bar" style="height: 75px;">
                     	<a href="../manage/index">桌号管理</a><br />
-                    	<a href="../manage/member">会员管理</a><br />
                     	<a href="../manage/employee">员工管理</a>
                     </div>
                     <div class="left">
@@ -109,7 +121,7 @@
     
     <!-- 结账 -->
     <div id="outputDiv" style="display:none;position:absolute;left:0px;top:0px;width:15%;height:20%;background:white;">
-        <div style="margin-left:5px;font-size:10px;">
+        <div style="margin-left:1px;font-size:10px;">
             &emsp;&emsp;&emsp;&emsp;欢迎您的光临</br>
             -------------------------------------------------</br>
             &emsp;&emsp;&emsp;&emsp;北京工业大学</br>
@@ -150,7 +162,6 @@
         <div class="checkoutBoard form-inline">
             <form class="form-inline" action="getSearch">
                 <div class="form-group">
-                    <label class="sr-only" for="exampleInputEmail3">Email address</label>
                     <select class="form-control" name="tableid">
                         <?php if(is_array($tableTree)): $i = 0; $__LIST__ = $tableTree;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$cate): $mod = ($i % 2 );++$i;?><optgroup label="<?php echo ($cate["name"]); ?>">
                                 <?php if(is_array($cate["table"])): $i = 0; $__LIST__ = $cate["table"];if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$val): $mod = ($i % 2 );++$i; if($val["id"] == I('tableid') ): ?><option value="<?php echo ($val["id"]); ?>" selected="true"><?php echo ($val["table_name"]); ?></option>
@@ -168,6 +179,7 @@
                 </div>
                 <button type="submit" class="btn btn-default" id="alone">确认</button>
             </form>
+            <input type="hidden" id="oid" value="<?php echo ($oid); ?>">
             <table class="table table-hover coTable">
                 <thead>
                     <tr>
@@ -253,54 +265,7 @@
         </div>
     </div>
     <!-- /结账 -->
-    <!-- 小票 -->
-    <div class="note">
-        <h4>雨之林餐厅</h4>
-        <div class="noteOther">
-            <div class="noteOtherLeft">&nbsp;会员号:32655629</div>
-            <div class="noteOtherright">桌号:10</div>
-        </div>
-        <div class="noteBody">
-            <table class="table noteTable">
-                <tr>
-                    <th id="t1">菜名</th>
-                    <th id="t2">单价*份数</th>
-                    <th id="t3">小计</th>
-                </tr>
-                <tr>
-                    <td id="t1">宫保鸡丁</td>
-                    <td id="t2">36*1</td>
-                    <td id="t3">36.0</td>
-                </tr>
-                <tr>
-                    <td id="t1">宫保鸡丁</td>
-                    <td id="t2">36*1</td>
-                    <td id="t3">36.0</td>
-                </tr>
-                <tr>
-                    <td id="t1">宫保鸡丁</td>
-                    <td id="t2">36*1</td>
-                    <td id="t3">36.0</td>
-                </tr>
-            </table>
-        </div>
-        <div class="noteAccount">
-            <div><strong>总计:</strong>124.0</div>
-            <div><strong>折扣:</strong>0.0</div>
-            <div><strong>应付:</strong>124.0</div>
-        </div>
-        <div class="noteAccount2">
-            <div><strong>&nbsp;现金:</strong>200.0</div>
-            <div><strong>找零:</strong>76.0</div>
-        </div>
-        <div class="noteAccount2">
-            <div><strong>&nbsp;银行卡:</strong>5444*********3165</div>
-        </div>
-        <div class="notefooter">
-            <div><strong>打印时间：</strong>2015-05-02&nbsp;19:47:00</div>
-        </div>
-    </div>
-    <!-- /小票 -->
+    
 
     <!--弹出框--> 
     <div class="modal fade in" id="alert">

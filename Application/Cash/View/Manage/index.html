@@ -1,52 +1,45 @@
 <extend name="Base/base" />
 <block name="content">
 	<div class="table-manage">
-	<div class="main-title">
-		<h2>桌号管理</h2>
-	</div>
-	<!-- 表格列表 -->
-	<div class="tb-unit posr">
-		<div class="tb-unit-bar">
-			<a class="btn" href="{:U('add?type=hall')}">新 增</a>
+		<div class="main-title">
+			<h2>桌号管理</h2>
 		</div>
-		<div class="category">
-			<div class="hd cf">
-				<div class="fold">折叠</div>
-				<div class="name">名称</div>
+		<!-- 表格列表 -->
+		<div class="tb-unit posr">
+			<div class="tb-unit-bar">
+				<!--<a class="btn" onclick="addhall()" href="{:U('add?type=hall')}">新 增</a>-->
+				<a class="addbtn" onclick="addhall()">新 增</a>
 			</div>
-			<volist name="degreeInfo" id="v">
-				<div id="{$v.id}">
-					<div class="cf">
-						<div class="btn-toolbar opt-btn cf">
-							<a class="confirm ajax-get" href="{:U('del',array('id'=>$v['id'],'type'=>'hall'))}" title="删除">删除</a>
-						</div>
-						<div class="fold">
-							<i class="icon-unfold"></i>
-						</div>
-						<div class="name">
-							<span class=""></span>
-							<input class="text" type="text" id="{$v.id}" value="{$v.name}" name="title">
-							<i class="icon-add"></i>
-							<span class="help-inline msg"></span>
-						</div>
-					</div>
-					<if condition="$v.table eq null ">
-						<div class="cf" style="display:none">
+			<div class="modal-content addhall" id="addhalldiv">
+				<p>厅堂名称（名称不能为空）</p>
+				<input type="text" id="hall" style="margin-bottom: 5px;" /><br />
+				<hr />
+				<button class="hallbtn" onclick="addhallsubmit()">确定</button>
+				<button class="hallbtn" onclick="addhallreturn()">取消</button>
+			</div>
+			<div class="category">
+				<div class="hd cf">
+					<div class="fold">折叠</div>
+					<div class="name">名称</div>
+				</div>
+				<volist name="degreeInfo" id="v">
+					<div id="{$v.id}">
+						<div class="cf">
 							<div class="btn-toolbar opt-btn cf">
-								<a class="confirm ajax-get" href="{:U('del',array('id'=>$table['id'],'type'=>'table'))}" title="删除">删除</a>
+								<a class="confirm ajax-get" href="{:U('del',array('id'=>$v['id'],'type'=>'hall'))}" title="删除">删除</a>
 							</div>
 							<div class="fold">
-								<i></i>
+								<i class="icon-unfold"></i>
 							</div>
 							<div class="name">
-								<span class="tab-sign"></span>
-								<input class="text" type="text" cid="{$v.id}" id="{$table.id}" value="{$table.table_name}" name="title">
+								<span class=""></span>
+								<input class="table-text" type="text" id="{$v.id}" value="{$v.name}" name="title">
+								<i class="icon-add"></i>
 								<span class="help-inline msg"></span>
 							</div>
 						</div>
-						<else/>
-						<volist name="v.table" id="table">
-							<div class="cf">
+						<if condition="$v.table eq null ">
+							<div class="cf" style="display:none">
 								<div class="btn-toolbar opt-btn cf">
 									<a class="confirm ajax-get" href="{:U('del',array('id'=>$table['id'],'type'=>'table'))}" title="删除">删除</a>
 								</div>
@@ -55,27 +48,76 @@
 								</div>
 								<div class="name">
 									<span class="tab-sign"></span>
-									<input class="text" type="text" cid="{$v.id}" id="{$table.id}" value="{$table.table_name}" name="title">
+									<input class="table-text" type="text" cid="{$v.id}" id="{$table.id}" value="{$table.table_name}" name="title">
 									<span class="help-inline msg"></span>
 								</div>
 							</div>
-						</volist>
-					</if>
+							<else/>
+							<volist name="v.table" id="table">
+								<div class="cf">
+									<div class="btn-toolbar opt-btn cf">
+										<a class="confirm ajax-get" href="{:U('del',array('id'=>$table['id'],'type'=>'table'))}" title="删除">删除</a>
+									</div>
+									<div class="fold">
+										<i></i>
+									</div>
+									<div class="name">
+										<span class="tab-sign"></span>
+										<input class="table-text" type="text" cid="{$v.id}" id="{$table.id}" value="{$table.table_name}" name="title">
+										<span class="help-inline msg"></span>
+									</div>
+								</div>
+							</volist>
+						</if>
 
-				</div>
-			</volist>
+					</div>
+				</volist>
+			</div>
 		</div>
 	</div>
-	</div>
 	<!-- /表格列表 -->
-</block>
-
-<block name="script">
 	<script>
-		(function($) {
+		function addhall() {
+			document.getElementById('addhalldiv').style.display = "block";
+		}
+
+		function addhallsubmit() {
+			var hall = document.getElementById('hall').value;
+			console.log(hall);
+			if(hall==""){
+				alert("请输入厅堂名称");
+			}
+			else{
+			$.ajax({
+				type: "post",
+				dataType: "json",
+				data: {
+					status: "hall",
+					hall: hall
+				},
+				url: "add",
+				success:function(data) {
+					console.log(data);
+					alert("添加成功");
+					window.location.reload();
+				},
+				error:function(){
+					alert("失败");
+				}
+			});
+		}
+		}
+
+		function addhallreturn() {
+			document.getElementById('addhalldiv').style.display = "none";
+		}
+	</script>
+	<script>
+		$(document).ready(function() {
 			// $(".msg").hide();
 			$(".icon-add").click(function() {
 				//得到本次要添加桌位的大厅id
+				//				alert("111");
 				var cid = $(this).parent().parent().parent().attr("id");
 				console.log(cid);
 				var parent = $("#" + cid);
@@ -97,7 +139,6 @@
 					Element.find(".opt-btn").hide();
 					parent.append(Element);
 				}
-
 			});
 			//文本框失去焦点则录入信息
 			$("[name='title']").change(function() {
@@ -151,7 +192,7 @@
 				if($(this).hasClass("icon-unfold")) $(this).attr("class", "icon-fold");
 				else $(this).attr("class", "icon-unfold");
 			});
-		})(jQuery);
+		});
 
 		function edit_name(name, id, type, msg) {
 			var data = {

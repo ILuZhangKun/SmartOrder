@@ -1,4 +1,64 @@
 <extend name="Base/base" />
 <block name="content">
+	<div class="data-table menu-list">
+		<div class="main-title">
+			<h2>菜单列表</h2>
+		</div>
+		<form action="menulist" type="post">
+			<select name="styleid" class="menu-thing">
+				<foreach name="CookStyle" item='v'>
+					<if condition="$v.c_id eq $cid ">
+						<option value="{$v.c_id}" selected="true">{$v.stylename}</option>
+						<else/>
+						<option value="{$v.c_id}">{$v.stylename}</option>
+					</if>
+				</foreach>
+			</select>
+			<button class="btn btn-success">查询</button>
+		</form>
+		<table>
+			<thead>
+				<tr>
+					<th class="">ID</th>
+					<th class="">所属菜系</th>
+					<th class="">菜名</th>
+					<th class="">单价</th>
+					<th class="">规格</th>
+					<th class="">置顶</th>
+					<!--<th >操作</th>-->
+					<th>菜品图片</th>
+				</tr>
+			</thead>
+			<tbody>
+				<foreach name="CookMenu" key='k' item='v'>
+					<tr>
+						<td>{$k+1}</td>
+						<td>{$v.stylename}</td>
+						<td>{$v.cookname}</td>
+						<td>{$v.price}</td>
+						<td>{$v.standard}</td>
+						<td>
+							<if condition="$v.recommend eq 0">否
+							<else />是
+							</if>
+						</td>
+						<!--<td name={$id=$v.id}> -->
+						<td {$cookname=$v.cookname}>
+							<a href="{$v.picture}" class="swipebox">
+								<img src="{$v.picture}" width="70px" height="70px" style="cursor: pointer;"/>
+							</a>
+						</td>
+					</tr>
+				</foreach>
+			</tbody>
+		</table>
+
+	</div>
 	
+	<script type="text/javascript">
+		jQuery(function($) {
+			$(".swipebox").swipebox();
+		});
+	</script>
+
 </block>

@@ -21,23 +21,26 @@ Class OtherModel extends Model{
 		return $all;
 	}
 	//查询结账信息
-	Public function searchIncome($start,$end){
-		$condition = array("pay_time"=>array("between",array($start,$end)),
-							"is_pay"=>1);
-		$res = M("order")->where($condition)->field("pay_time,table_id,total_money as real_money")->select();
-		$result = M("table_hall")->where()->select(); 
+	Public function searchIncome($start,$end,$is_pay){
+		$condition = array("order_time"=>array("between",array($start,$end)),
+							"is_pay"=>$is_pay);
+		$res = M("order")->where($condition)->field("order_time,table_id,total_money as real_money")->select();
+		$prefix=C('DB_PREFIX');
+		$sql="select t.*,h.name from {$prefix}table as t,{$prefix}hall as h where t.hall_id=h.id ";
+		$result = M()->query($sql);
 		for($i=0;$i<count($res);$i++){
 			$tableId = $res[$i]["table_id"]; 
-			$hour = explode(" ", date("Y-m-d h:i:s",$res[$i]["pay_time"]));
-			$res[$i]["pay_time"]=$hour[1];
+			$hour = explode(" ", date("Y-m-d h:i:s",$res[$i]["order_time"]));
+			$res[$i]["order_time"]=$hour[1];
 			for($j=0;$j<count($result);$j++){ 
 				if($result[$j]["id"]==$tableId)
-					$res[$i]["table_name"]=$result[$j]["hall_name"]." ".$result[$j]["table_name"];
+					$res[$i]["table_name"]=$result[$j]["name"]." ".$result[$j]["table_name"];
 			}
 		}
 		return $res;
 
 	}
+
 	 
 
 

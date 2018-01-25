@@ -45,7 +45,7 @@ Class OrderModel extends Model{
 	Public function searchPay($table_id,$payType){
 		$condition = array("table_id" => $table_id,
 							"is_pay" => 0); 
-		$result=$this->dbOrder->where($condition)->select();
+		$result=$this->dbOrder->where($condition)->order('order_time desc')->select();
 		// if($result==null){
 		// 	//在order表中查询结果为空，说明在pad端没有结账，应该去temp表中查找。
 		// 	$con = array("order_id"=>0,"table_id" =>$table_id);

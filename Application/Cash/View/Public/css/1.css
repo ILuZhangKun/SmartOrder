@@ -9,7 +9,9 @@ ul {
     padding: 0;
     margin: 0;
 }
-
+::-webkit-scrollbar{
+  display:none;
+}
 .header {
     width: 100%;
     height: 45px;
@@ -136,6 +138,7 @@ ul {
     /*display: none;*/
     width: 70%;
     margin-left: 6%;
+    margin-top: 100px;
     float: left;
     padding-right: 0px;
     margin-right: 0px;
@@ -469,7 +472,7 @@ ul {
     height: 500px;
     margin-left: -7%;
     /* width: 230px; */
-    /* margin-top: 65px; */
+    margin-top: 100px;
     /* margin-left:50px;*/
 }
 
@@ -779,6 +782,7 @@ option[selected="true"] {
 }
 
 .incomeTable {
+    /*height: 100%;*/
     margin-top: 22px;
     border: 1px solid #ddd;
     border-top: 2px solid #ddd;
@@ -1008,7 +1012,7 @@ option[selected="true"] {
 .founding select,
 input[type='text'],
 input[type='password'] {
-    width: 75%;
+   /* width: 75%;*/
 }
 
 .founding input[type='radio'] {
@@ -1031,7 +1035,7 @@ input[type='password'] {
 .foundingOther select,
 input[type='text'],
 input[type='password'] {
-    width: 75%;
+   /* width: 75%;*/
 }
 
 

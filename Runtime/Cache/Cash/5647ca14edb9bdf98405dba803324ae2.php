@@ -1,10 +1,18 @@
 <?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html>
 <html> 
 <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="Content-Type" content="text/html, charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+	<meta name="description" content="A touchable jQuery lightbox plugin for desktop, mobile and tablet" />
+    
     <title><?php echo ($meta_title); ?></title>
     <link rel="stylesheet" type="text/css" href="/SmartOrder/Application/Cash/View/Public/css/1.css">
     <link rel="stylesheet" type="text/css" href="/SmartOrder/Application/Cash/View/Public/css/2.css">
+    
+    <link rel="stylesheet" href="http://swipebox.brutaldesign.com/css/style.css">
+	<link rel="stylesheet" href="/SmartOrder/Application/Cash/View/Public/css/swipebox.css">
+    
     <!--<link rel="stylesheet" type="text/css" href="/SmartOrder/Application/Cash/View/Public/css/module.css">-->
     <!--<link rel="stylesheet" type="text/css" href="/SmartOrder/Application/Cash/View/Public/css/style.css">-->
     <link rel="stylesheet" type="text/css" href="/SmartOrder/Application/Cash/View/Public/css/bootstrap.min.css">
@@ -16,6 +24,11 @@
     <script src="/SmartOrder/Application/Cash/View/Public/datetimepicker/js/locales/bootstrap-datetimepicker.zh-CN.js"></script>
     <script src="/SmartOrder/Application/Cash/View/Public/js/somefunction.js"></script>
     <script src="/SmartOrder/Application/Cash/View/Public/js/1.js"></script>
+    
+   <!-- <script src="/SmartOrder/Application/Cash/View/Public/js/jquery-1.9.0.min.js"></script>-->
+	<script src="/SmartOrder/Application/Cash/View/Public/js/ios-orientationchange-fix.js"></script>
+	<script src="/SmartOrder/Application/Cash/View/Public/js/jquery.swipebox.min.js"></script>
+    <!--<script type="text/javascript" src="/SmartOrder/Application/Cash/View/Public/js/jquery-2.0.3.min.js"></script>-->
     <script>
     $(function () {
       $('[data-toggle="tooltip"]').tooltip()
@@ -68,9 +81,8 @@
                 </li>
                 <li id="manage">
                     <div class="text">管理</div>
-                    <div class="nav-bar">
+                    <div class="nav-bar" style="height: 75px;">
                     	<a href="../manage/index">桌号管理</a><br />
-                    	<a href="../manage/member">会员管理</a><br />
                     	<a href="../manage/employee">员工管理</a>
                     </div>
                     <div class="left">
@@ -108,12 +120,12 @@
     </div>
     
     <!-- 桌号 -->
-    <div class="tableSearch">
+<!--     <div class="tableSearch">
         <div class="nana">
             <input type="text" class="time-start" id="tableDay" placeholder="请输入查询日期" required />
             <button class="btn" id="searchTable">查询</button>
         </div>
-    </div>
+    </div> -->
     <div class="tableNum">
         <div id="menu2" class="menu2">
             <ul>

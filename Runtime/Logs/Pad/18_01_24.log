@@ -1,0 +1,58 @@
+[ 2018-01-24T13:17:53+08:00 ] 172.18.10.214 /SmartOrder/Pad/CheckAuth
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.088005s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.041003s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.041003s ]
+SQL: SHOW COLUMNS FROM `so_config` [ RunTime:0.0580s ]
+SQL: SELECT * FROM `so_config` WHERE `conf` = 'authPwd' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2018-01-24T13:17:53+08:00 ] 172.18.10.214 /SmartOrder/Pad/CheckAuth
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `so_config` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `so_config` WHERE `conf` = 'authPwd' LIMIT 1   [ RunTime:0.0020s ]
+
+[ 2018-01-24T13:17:53+08:00 ] 172.18.10.214 /SmartOrder/Pad/CheckAuth
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `so_config` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `so_config` WHERE `conf` = 'authPwd' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2018-01-24T13:25:36+08:00 ] 172.18.10.214 /SmartOrder/Pad
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:index
+
+[ 2018-01-24T18:37:33+08:00 ] 172.18.10.214 /SmartOrder/Pad/Ads/GetAds
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-01-24T20:13:00+08:00 ] 172.18.10.214 /SmartOrder/Pad/DealOrder
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2] Missing argument 3 for Pad\Model\OrderModel::__construct(), called in E:\xampp\htdocs\SmartOrder\Application\Pad\Controller\OrderController.class.php on line 19 and defined E:\xampp\htdocs\SmartOrder\Application\Pad\Model\OrderModel.class.php 第 13 行.
+SQL: SHOW COLUMNS FROM `so_temp` [ RunTime:0.6950s ]
+SQL: SELECT * FROM `so_temp` WHERE `uuid` = '' AND `table_id` = 0 LIMIT 1   [ RunTime:0.1050s ]
+
