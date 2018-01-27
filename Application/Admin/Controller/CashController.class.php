@@ -79,7 +79,6 @@ Class CashController extends AdminController{
        M('table')->where("id = $tid")->save($data2);
        $data3 = array("is_pay"=>0,"syn_check"=>0);
        $syn_order = M('order')->where($data3)->select();
-       dump($syn_order);die();
        //同步操作
        $message = "syn_check更新测试！".date("Y-m-d H:i:s",time());
        Log::Write($message);
@@ -90,7 +89,6 @@ Class CashController extends AdminController{
        Log::write("同步URL为：".$syn_url);
        $data4["syn_key"] = $syn_key; //构造同步数据
        $data4["syn_order"] = serialize($syn_order);
-       //dump(curl_request($syn_url,$data4));die;
        $order_return = object_array(json_decode(curl_request($syn_url,$data4)));
        if($order_return["status"] == 1)
         //如果更新成功，同时修改本地服务器的数据

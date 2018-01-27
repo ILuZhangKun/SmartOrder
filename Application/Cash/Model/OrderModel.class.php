@@ -53,49 +53,7 @@ Class OrderModel extends Model{
 		// }
 		return($result);
 	}
-	/**
-	 * 实时查询呼叫信息
-	 */
-	Public function getHoldInfo(){
-		$condition = array("end_time"=>0,"holding"=>array("neq",''));
-		$res = M("temp")->where()->field("table_id,holding,hold_time")->select();
-		$result = M("table_hall")->where(array("is_lock"=>1))->select(); 
-		for($i=0;$i<count($res);$i++){
-			$tableId = $res[$i]["table_id"]; 
-			$temp = $res[$i]["holding"]; 
-			$temp = json_decode(object_array($temp));
-	 		// 	$temp = json_decode($temp,true);  
-			$temp =explode("***",$temp[0] );  
-			$res[$i]["holding"]=$temp; 
-			// dump($temp);
-			for($j=0;$j<count($result);$j++){ 
-				if($result[$j]["id"]==$tableId&&$temp[0]!="")
-					$res[$i]["table_name"]=$result[$j]["hall_name"]." ".$result[$j]["table_name"];
-			}
-		}
-		return($res);
-	}
-	/*
-	*获得长时间未结账的餐桌
-	 */
-	Public function getLongTime(){
-		$time =time()-3600*3;
-		$condition = array("start_time"=>array("lt",$time));
-		$res = M("temp")->where($condition)->field("table_id,start_time")->select();
-		$result = M("table_hall")->where(array("is_lock"=>1))->select();
-		for($i=0;$i<count($res);$i++){
-			$tableId = $res[$i]["table_id"]; 
-			$date = $res[$i]["start_time"];
-			$res[$i]["start_time"] = "已用餐" .round(($time-$date) / 3600) . "小时";
-
-			for($j=0;$j<count($result);$j++){
-				if($result[$j]["id"]==$tableId)
-					$res[$i]["table_name"]=$result[$j]["hall_name"]." ".$result[$j]["table_name"];
-			}
-		}
-		 // dump($res);die;
-		return($res);
-	}
+	
 
 	/**
 	 * [MakeOrder 结账后修改订单状态，解除uuid锁定]

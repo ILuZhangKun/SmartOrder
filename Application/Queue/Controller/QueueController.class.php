@@ -66,7 +66,7 @@ Class QueueController extends Controller{
 	 * 主要是用于填充Tab上的圆形红色提醒标志
 	 */
 	public function getGlobalEmptyTables(){
-		$sql = "SELECT count(*) as empty_tables , num FROM so_table where is_leave = 1 group by num";
+		$sql = "SELECT count(*) as empty_tables , num FROM so_table where is_lock = 0 group by num";
 		$ret = M()->query($sql);
 		$table = array();
 		foreach ($ret as $key => $value) {

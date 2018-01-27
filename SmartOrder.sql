@@ -3,7 +3,11 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: 127.0.0.1
+<<<<<<< HEAD
 -- Generation Time: 2018-01-25 07:09:58
+=======
+-- Generation Time: 2018-01-25 05:47:10
+>>>>>>> zhangkun
 -- 服务器版本： 10.1.19-MariaDB
 -- PHP Version: 5.6.28
 
@@ -416,9 +420,13 @@ INSERT INTO `so_action_log` (`id`, `action_id`, `user_id`, `action_ip`, `model`,
 (335, 1, 1, 0, 'member', 1, 'admin在2018-01-20 13:03登录了后台', 1, 1516424592),
 (336, 1, 1, 0, 'member', 1, 'admin在2018-01-20 13:06登录了后台', 1, 1516424792),
 (337, 10, 1, 0, 'Menu', 0, '操作url：/smartorder/admin.php/Menu/del/id/90.html', 1, 1516425560),
+<<<<<<< HEAD
 (338, 1, 1, 0, 'member', 1, 'admin在2018-01-22 20:03登录了后台', 1, 1516622631),
 (339, 1, 1, 0, 'member', 1, 'admin在2018-01-23 09:24登录了后台', 1, 1516670673),
 (340, 1, 1, 0, 'member', 1, 'admin在2018-01-23 14:26登录了后台', 1, 1516688818);
+=======
+(338, 1, 1, 0, 'member', 1, 'admin在2018-01-23 10:54登录了后台', 1, 1516676099);
+>>>>>>> zhangkun
 
 -- --------------------------------------------------------
 
@@ -535,7 +543,11 @@ CREATE TABLE `so_book` (
 --
 
 INSERT INTO `so_book` (`id`, `book_day`, `book_time`, `book_name`, `book_num`, `book_tel`, `book_table`, `book_demand`, `book_deadline`, `book_status`) VALUES
+<<<<<<< HEAD
 (14, '2015-07-14', '晚饭', '李小姐', 5, '15650752237', 15, '', '0000-00-00 00:00:00', 3),
+=======
+(14, '2018-01-24', '晚饭', '李小姐', 5, '15650752237', 15, '', '0000-00-00 00:00:00', 0),
+>>>>>>> zhangkun
 (15, '2015-07-14', '午饭', '鲍小姐', 11, '13575431234', 11, '', '0000-00-00 00:00:00', 1),
 (16, '2015-07-14', '晚饭', '张先生', 3, '17645671234', 11, '', '0000-00-00 00:00:00', 2),
 (17, '2015-07-15', '午饭', '肖起', 4, '13356781234', 11, '138套餐', '0000-00-00 00:00:00', 3),
@@ -551,7 +563,8 @@ INSERT INTO `so_book` (`id`, `book_day`, `book_time`, `book_name`, `book_num`, `
 (27, '2015-07-15', '晚饭', '哈', 6, '13573245413', 21, '', '0000-00-00 00:00:00', 3),
 (28, '2015-07-15', '午饭', '飞', 3, '15678456785', 2, '', '0000-00-00 00:00:00', 3),
 (29, '2015-07-15', '晚饭', '吃', 5, '17857458533', 18, '', '0000-00-00 00:00:00', 3),
-(30, '2015-08-31', '午饭', '肖起', 4, '15650752237', 9, '', '0000-00-00 00:00:00', 0);
+(30, '2015-08-31', '午饭', '肖起', 4, '15650752237', 9, '', '0000-00-00 00:00:00', 3),
+(31, '2018-01-26', '早饭', '侯自强', 5, '18811100322', 9, '单独的包间', '0000-00-00 00:00:00', 0);
 
 -- --------------------------------------------------------
 
@@ -849,7 +862,11 @@ CREATE TABLE `so_member` (
 --
 
 INSERT INTO `so_member` (`uid`, `nickname`, `sex`, `birthday`, `qq`, `score`, `login`, `reg_ip`, `reg_time`, `last_login_ip`, `last_login_time`, `status`) VALUES
+<<<<<<< HEAD
 (1, 'admin', 0, '0000-00-00', '', 610, 167, 0, 1432774307, 0, 1516688818, 1);
+=======
+(1, 'admin', 0, '0000-00-00', '', 610, 165, 0, 1432774307, 0, 1516676099, 1);
+>>>>>>> zhangkun
 
 -- --------------------------------------------------------
 
@@ -948,11 +965,19 @@ CREATE TABLE `so_order` (
 
 INSERT INTO `so_order` (`oid`, `order_time`, `pay_time`, `add_time`, `detail`, `total_money`, `real_money`, `table_id`, `uuid`, `evaluate`, `pay_type`, `is_pay`, `syn_check`) VALUES
 (1, 1497337261, 0, 0, '[{"menuId":"26","c_id":"19","name":"\\u7cd6\\u918b\\u91cc\\u810a","price":"35","num":"2","taste":"","isUp":1},{"menuId":"25","c_id":"20","name":"\\u62cd\\u9ec4\\u74dc","price":"10","num":"1","taste":"","isUp":1}]', '80.00', '0.00', '1', 'a6b7a37d0115365a', '', '', 1, 1),
+<<<<<<< HEAD
 (2, 1497337904, 0, 0, '[{"menuId":"30","c_id":"40","name":"\\u9ed1\\u6912\\u725b\\u67f3","price":"70","num":"1","taste":"","isUp":0},{"menuId":"8","c_id":"37","name":"\\u8106\\u76ae\\u9e21","price":"40","num":"1","taste":"","isUp":0},{"menuId":"29","c_id":"39","name":"\\u8001\\u5317\\u4eac\\u6dae\\u809a","price":"89","num":"1","taste":"","isUp":0},{"menuId":"4","c_id":"14","name":"\\u68d2\\u5b50\\u5e16\\u5b50","price":"50","num":"92","taste":"","isUp":0}]', '4799.00', '0.00', '8', 'a6b7a37d0115365a', '', '', 0, 0),
 (3, 1502978458, 0, 0, '[{"menuId":"18","c_id":"28","name":"\\u6885\\u83dc\\u6263\\u8089","price":"40","num":"2","taste":"","isUp":1},{"menuId":"29","c_id":"39","name":"\\u8001\\u5317\\u4eac\\u6dae\\u809a","price":"89","num":"1","taste":"","isUp":1},{"menuId":"30","c_id":"40","name":"\\u9ed1\\u6912\\u725b\\u67f3","price":"70","num":"1","taste":"","isUp":1},{"menuId":"8","c_id":"37","name":"\\u8106\\u76ae\\u9e21","price":"40","num":"1","taste":"","isUp":1},{"menuId":"7","c_id":"12","name":"\\u6bdb\\u8840\\u65fa","price":"60","num":"1","taste":"","isUp":1},{"menuId":"6","c_id":"9","name":"\\u4eac\\u9171\\u8089\\u4e1d","price":"49","num":"1","taste":"\\u52a0\\u5feb \\u5fae\\u8fa3 \\u5c11\\u6cb9 \\u5c11\\u7cd6","isUp":0}]', '388.00', '0.00', '1', 'a6b7a37d0115365a', '', '', 0, 0),
 (4, 1503019595, 0, 0, '[{"menuId":"24","c_id":"21","name":"\\u9c7c\\u9999\\u8089\\u4e1d","price":"40","num":"2","taste":"\\u52a0\\u5feb \\u514d\\u59dc \\u5c11\\u6cb9 \\u5c11\\u76d0","isUp":0},{"menuId":"25","c_id":"20","name":"\\u62cd\\u9ec4\\u74dc","price":"22","num":"1","taste":"","isUp":1},{"menuId":"23","c_id":"22","name":"\\u7ea2\\u70e7\\u6392\\u9aa8","price":"55","num":"1","taste":"","isUp":1},{"menuId":"20","c_id":"25","name":"\\u624b\\u6495\\u5305\\u83dc","price":"20","num":"1","taste":"","isUp":1}]', '177.00', '0.00', '1', 'a6b7a37d0115365a', '', '', 0, 1),
 (5, 1503024301, 0, 0, '[{"menuId":"24","c_id":"21","name":"\\u9c7c\\u9999\\u8089\\u4e1d","price":"40","num":"2","taste":[],"isUp":1},{"menuId":"25","c_id":"20","name":"\\u62cd\\u9ec4\\u74dc","price":"22","num":"2","taste":[],"isUp":1}]', '124.00', '0.00', '2', 'a6b7a37d0115365a', '', '', 0, 1),
 (6, 1503025035, 0, 0, '[{"menuId":"6","c_id":"9","name":"\\u4eac\\u9171\\u8089\\u4e1d","price":"49","num":"1","taste":"","isUp":1},{"menuId":"10","c_id":"32","name":"\\u53ef\\u4e50\\u9e21\\u7fc5","price":"30","num":"1","taste":"","isUp":1},{"menuId":"24","c_id":"21","name":"\\u9c7c\\u9999\\u8089\\u4e1d","price":"40","num":"1","taste":"","isUp":0},{"menuId":"25","c_id":"20","name":"\\u62cd\\u9ec4\\u74dc","price":"20","num":"1","taste":"","isUp":0}]', '139.00', '0.00', '8', 'a6b7a37d0115365a', '', '', 0, 1),
+=======
+(2, 1497337904, 1516779175, 0, '[{"menuId":"30","c_id":"40","name":"\\u9ed1\\u6912\\u725b\\u67f3","price":"70","num":"1","taste":"","isUp":0},{"menuId":"8","c_id":"37","name":"\\u8106\\u76ae\\u9e21","price":"40","num":"1","taste":"","isUp":0},{"menuId":"29","c_id":"39","name":"\\u8001\\u5317\\u4eac\\u6dae\\u809a","price":"89","num":"1","taste":"","isUp":0},{"menuId":"4","c_id":"14","name":"\\u68d2\\u5b50\\u5e16\\u5b50","price":"50","num":"92","taste":"","isUp":0}]', '4799.00', '0.00', '8', 'a6b7a37d0115365a', '', '现金结账', 1, 1),
+(3, 1502978458, 0, 0, '[{"menuId":"18","c_id":"28","name":"\\u6885\\u83dc\\u6263\\u8089","price":"40","num":"2","taste":"","isUp":1},{"menuId":"29","c_id":"39","name":"\\u8001\\u5317\\u4eac\\u6dae\\u809a","price":"89","num":"1","taste":"","isUp":1},{"menuId":"30","c_id":"40","name":"\\u9ed1\\u6912\\u725b\\u67f3","price":"70","num":"1","taste":"","isUp":1},{"menuId":"8","c_id":"37","name":"\\u8106\\u76ae\\u9e21","price":"40","num":"1","taste":"","isUp":1},{"menuId":"7","c_id":"12","name":"\\u6bdb\\u8840\\u65fa","price":"60","num":"1","taste":"","isUp":1},{"menuId":"6","c_id":"9","name":"\\u4eac\\u9171\\u8089\\u4e1d","price":"49","num":"1","taste":"\\u52a0\\u5feb \\u5fae\\u8fa3 \\u5c11\\u6cb9 \\u5c11\\u7cd6","isUp":0}]', '388.00', '0.00', '1', 'a6b7a37d0115365a', '', '', 0, 0),
+(4, 1503019595, 0, 0, '[{"menuId":"24","c_id":"21","name":"\\u9c7c\\u9999\\u8089\\u4e1d","price":"40","num":"2","taste":"\\u52a0\\u5feb \\u514d\\u59dc \\u5c11\\u6cb9 \\u5c11\\u76d0","isUp":0},{"menuId":"25","c_id":"20","name":"\\u62cd\\u9ec4\\u74dc","price":"22","num":"1","taste":"","isUp":1},{"menuId":"23","c_id":"22","name":"\\u7ea2\\u70e7\\u6392\\u9aa8","price":"55","num":"1","taste":"","isUp":1},{"menuId":"20","c_id":"25","name":"\\u624b\\u6495\\u5305\\u83dc","price":"20","num":"1","taste":"","isUp":1}]', '177.00', '0.00', '1', 'a6b7a37d0115365a', '', '', 0, 1),
+(5, 1503024301, 0, 0, '[{"menuId":"24","c_id":"21","name":"\\u9c7c\\u9999\\u8089\\u4e1d","price":"40","num":"2","taste":[],"isUp":1},{"menuId":"25","c_id":"20","name":"\\u62cd\\u9ec4\\u74dc","price":"22","num":"2","taste":[],"isUp":1}]', '124.00', '0.00', '2', 'a6b7a37d0115365a', '', '', 0, 1),
+(6, 1503025035, 0, 0, '[{"menuId":"6","c_id":"9","name":"\\u4eac\\u9171\\u8089\\u4e1d","price":"49","num":"1","taste":"","isUp":1},{"menuId":"10","c_id":"32","name":"\\u53ef\\u4e50\\u9e21\\u7fc5","price":"30","num":"1","taste":"","isUp":1},{"menuId":"24","c_id":"21","name":"\\u9c7c\\u9999\\u8089\\u4e1d","price":"40","num":"1","taste":"","isUp":0},{"menuId":"25","c_id":"20","name":"\\u62cd\\u9ec4\\u74dc","price":"20","num":"1","taste":"","isUp":0}]', '139.00', '0.00', '8', 'a6b7a37d0115365a', '', '', 1, 1),
+>>>>>>> zhangkun
 (7, 1503026105, 0, 0, '[{"menuId":"24","c_id":"21","name":"\\u9c7c\\u9999\\u8089\\u4e1d","price":"40","num":"2","taste":"","isUp":1},{"menuId":"25","c_id":"20","name":"\\u62cd\\u9ec4\\u74dc","price":"20","num":"1","taste":"","isUp":1}]', '100.00', '0.00', '8', 'a6b7a37d0115365a', '', '', 1, 1),
 (8, 1503026408, 0, 0, '[{"menuId":"24","c_id":"21","name":"\\u9c7c\\u9999\\u8089\\u4e1d","price":"40","num":"2","taste":"","isUp":1},{"menuId":"25","c_id":"20","name":"\\u62cd\\u9ec4\\u74dc","price":"20","num":"1","taste":"","isUp":1}]', '100.00', '0.00', '21', 'a6b7a37d0115365a', '', '', 1, 1),
 (9, 1504062286, 0, 1504083360, '[{"menuId":"24","c_id":"21","name":"\\u9c7c\\u9999\\u8089\\u4e1d","price":"40","num":"1","taste":"","isUp":1},{"menuId":"25","c_id":"20","name":"\\u62cd\\u9ec4\\u74dc","price":"20","num":"2","taste":"\\u5fae\\u8fa3 \\u514d\\u849c \\u5c11\\u76d0","isUp":0},{"menuId":"24","c_id":"21","name":"\\u9c7c\\u9999\\u8089\\u4e1d","price":"40","num":"1","taste":"","isUp":0},{"menuId":"25","c_id":"20","name":"\\u62cd\\u9ec4\\u74dc","price":"20","num":"1","taste":"","isUp":0}]', '140.00', '0.00', '1', 'a6b7a37d0115365a', '', '', 1, 1),
@@ -973,8 +998,8 @@ INSERT INTO `so_order` (`oid`, `order_time`, `pay_time`, `add_time`, `detail`, `
 (24, 1506048931, 0, 1506049375, '[{"menuId":"1","c_id":"26","name":"\\u9c7c\\u6c64\\u9762","price":"60","num":"1","taste":"","isUp":1},{"menuId":"1","c_id":"26","name":"\\u9c7c\\u6c64\\u9762","price":"60","num":"1","taste":"","isUp":1},{"menuId":"2","c_id":"25","name":"\\u97ed\\u83dc\\u94f6\\u82bd\\u9e21\\u4e1d\\u4e24\\u9762\\u9ec4","price":"70","num":"1","taste":"","isUp":0},{"menuId":"3","c_id":"24","name":"\\u626c\\u5dde\\u7092\\u996d","price":"80","num":"1","taste":"","isUp":0},{"menuId":"19","c_id":"8","name":"\\u8349\\u5934\\u70e7\\u51ac\\u7b0b","price":"98","num":"1","taste":"","isUp":0}]', '368.00', '0.00', '8', 'c605f5fd1232dec7', '', '', 1, 1),
 (25, 1506049652, 0, 0, '[{"menuId":"1","c_id":"26","name":"\\u9c7c\\u6c64\\u9762","price":"60","num":"1","taste":"","isUp":0}]', '60.00', '0.00', '21', 'c605f5fd1232dec7', '', '', 1, 1),
 (26, 1506049742, 0, 1506069068, '[{"menuId":"2","c_id":"25","name":"\\u97ed\\u83dc\\u94f6\\u82bd\\u9e21\\u4e1d\\u4e24\\u9762\\u9ec4","price":"70","num":"1","taste":"","isUp":1},{"menuId":"3","c_id":"24","name":"\\u626c\\u5dde\\u7092\\u996d","price":"80","num":"1","taste":"","isUp":1},{"menuId":"3","c_id":"24","name":"\\u626c\\u5dde\\u7092\\u996d","price":"80","num":"1","taste":"","isUp":1}]', '230.00', '0.00', '30', 'c605f5fd1232dec7', '', '', 1, 1),
-(27, 1506329684, 0, 0, '[{"menuId":"6","c_id":"21","name":"\\u6984\\u83dc\\u8089\\u672b\\u56db\\u68f1\\u8c46","price":"68","num":"1","taste":"\\u5c11\\u76d0","isUp":0},{"menuId":"18","c_id":"9","name":"\\u814a\\u8089\\u82a5\\u5170","price":"78","num":"1","taste":"\\u5c11\\u7cd6","isUp":0},{"menuId":"20","c_id":"7","name":"\\u6e05\\u7092\\u6cb3\\u867e\\u4ec1","price":"88","num":"1","taste":"\\u5fae\\u8fa3","isUp":0},{"menuId":"5","c_id":"22","name":"\\u9c9c\\u83e0\\u841d\\u4ec0\\u679c\\u5495\\u54be\\u8089","price":"68","num":"1","taste":"\\u5c11\\u76d0","isUp":0},{"menuId":"15","c_id":"12","name":"\\u6768\\u679d\\u7518\\u9732","price":"38","num":"1","taste":"\\u5c11\\u7cd6","isUp":1},{"menuId":"16","c_id":"11","name":"\\u6000\\u65e7\\u897f\\u67e0\\u9e21","price":"98","num":"1","taste":"\\u5c11\\u76d0","isUp":0},{"menuId":"10","c_id":"17","name":"\\u548c\\u98ce\\u70e7\\u6c41\\u548c\\u725b\\u7c92","price":"280","num":"1","taste":"\\u5fae\\u8fa3","isUp":1},{"menuId":"25","c_id":"2","name":"\\u51b0\\u5bab\\u80b4\\u8089","price":"42","num":"1","taste":"\\u514d\\u849c","isUp":0}]', '760.00', '0.00', '1', 'c605f5fd1232dec7', '', '', 1, 1),
-(28, 1506330072, 0, 0, '[{"menuId":"25","c_id":"2","name":"\\u51b0\\u5bab\\u80b4\\u8089","price":"42","num":"1","taste":"\\u5fae\\u8fa3","isUp":1}]', '42.00', '0.00', '1', 'c605f5fd1232dec7', '', '', 1, 1);
+(27, 1516683005, 0, 0, '[{"menuId":"6","c_id":"21","name":"\\u6984\\u83dc\\u8089\\u672b\\u56db\\u68f1\\u8c46","price":"68","num":"1","taste":"\\u5c11\\u76d0","isUp":0},{"menuId":"18","c_id":"9","name":"\\u814a\\u8089\\u82a5\\u5170","price":"78","num":"1","taste":"\\u5c11\\u7cd6","isUp":0},{"menuId":"20","c_id":"7","name":"\\u6e05\\u7092\\u6cb3\\u867e\\u4ec1","price":"88","num":"1","taste":"\\u5fae\\u8fa3","isUp":0},{"menuId":"5","c_id":"22","name":"\\u9c9c\\u83e0\\u841d\\u4ec0\\u679c\\u5495\\u54be\\u8089","price":"68","num":"1","taste":"\\u5c11\\u76d0","isUp":0},{"menuId":"15","c_id":"12","name":"\\u6768\\u679d\\u7518\\u9732","price":"38","num":"1","taste":"\\u5c11\\u7cd6","isUp":1},{"menuId":"16","c_id":"11","name":"\\u6000\\u65e7\\u897f\\u67e0\\u9e21","price":"98","num":"1","taste":"\\u5c11\\u76d0","isUp":0},{"menuId":"10","c_id":"17","name":"\\u548c\\u98ce\\u70e7\\u6c41\\u548c\\u725b\\u7c92","price":"280","num":"1","taste":"\\u5fae\\u8fa3","isUp":1},{"menuId":"25","c_id":"2","name":"\\u51b0\\u5bab\\u80b4\\u8089","price":"42","num":"1","taste":"\\u514d\\u849c","isUp":0}]', '760.00', '0.00', '1', 'c605f5fd1232dec7', '', '现金结账', 1, 1),
+(28, 1516683105, 0, 0, '[{"menuId":"25","c_id":"2","name":"\\u51b0\\u5bab\\u80b4\\u8089","price":"42","num":"1","taste":"\\u5fae\\u8fa3","isUp":1}]', '42.00', '0.00', '1', 'c605f5fd1232dec7', '', '', 1, 1);
 
 -- --------------------------------------------------------
 
@@ -1032,15 +1057,23 @@ CREATE TABLE `so_table` (
 --
 
 INSERT INTO `so_table` (`id`, `hall_id`, `table_name`, `num`, `uuid`, `is_lock`, `is_leave`, `leave_time`) VALUES
+<<<<<<< HEAD
 (1, 1, '一号桌', 2, '', 0, 1, 0),
 (2, 2, '一号桌', 6, '', 0, 0, 0),
 (8, 1, '二号桌', 4, '', 0, 1, 0),
 (9, 2, '二号桌', 4, 'a6b7a37d0115365a', 1, 0, 0),
+=======
+(1, 1, '一号桌', 2, '', 0, 0, 0),
+(2, 2, '一号桌', 6, '', 1, 0, 0),
+(8, 1, '二号桌', 4, '', 0, 0, 0),
+(9, 2, '二号桌', 4, '', 0, 0, 0),
+>>>>>>> zhangkun
 (11, 2, '三号桌', 8, 'a6b7a37d0115365a', 1, 0, 0),
 (15, 1, '三号桌', 2, '', 0, 0, 0),
 (18, 3, '一号桌', 6, 'a6b7a37d0115365a', 1, 0, 0),
 (20, 2, '四号桌', 2, 'a6b7a37d0115365a', 1, 0, 0),
 (21, 1, '四号桌', 4, '', 0, 0, 0),
+<<<<<<< HEAD
 (22, 4, '一号桌', 8, '', 0, 1, 0),
 (23, 2, '五号桌', 2, '', 0, 0, 0),
 (24, 2, '六号桌', 4, 'a6b7a37d0115365a', 1, 0, 0),
@@ -1051,6 +1084,16 @@ INSERT INTO `so_table` (`id`, `hall_id`, `table_name`, `num`, `uuid`, `is_lock`,
 (29, 1, '五号桌', 2, 'a6b7a37d0115365a', 1, 0, 0),
 (30, 1, '六号桌', 4, 'a6b7a37d0115365a', 1, 0, 0),
 (31, 1, '七号桌', 8, 'a6b7a37d0115365a', 1, 1, 0);
+=======
+(22, 4, '旧时时光', 8, '', 0, 1, 0),
+(23, 2, '五号桌', 2, '', 0, 0, 0),
+(24, 2, '六号桌', 4, 'a6b7a37d0115365a', 1, 0, 0),
+(25, 3, '二号桌', 4, '', 0, 1, 0),
+(29, 1, '五号桌', 2, '', 0, 0, 0),
+(30, 1, '六号桌', 4, '', 0, 0, 0),
+(32, 1, '七号桌', 1, '', 0, 0, 0),
+(37, 5, '怀旧', 1, '', 0, 0, 0);
+>>>>>>> zhangkun
 
 -- --------------------------------------------------------
 
@@ -1084,6 +1127,7 @@ CREATE TABLE `so_temp` (
   `end_time` int(10) NOT NULL COMMENT '提交订单时间'
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
+<<<<<<< HEAD
 -- --------------------------------------------------------
 
 --
@@ -1096,6 +1140,8 @@ CREATE TABLE `so_test` (
   `verify` varchar(128) NOT NULL
 ) ENGINE=MyISAM DEFAULT CHARSET=utf8;
 
+=======
+>>>>>>> zhangkun
 -- --------------------------------------------------------
 
 --
@@ -1121,7 +1167,11 @@ CREATE TABLE `so_ucenter_member` (
 --
 
 INSERT INTO `so_ucenter_member` (`id`, `username`, `password`, `email`, `mobile`, `reg_time`, `reg_ip`, `last_login_time`, `last_login_ip`, `update_time`, `status`) VALUES
+<<<<<<< HEAD
 (1, 'admin', '4a7364270ebba0a7472a2e076bc5bd4c', 'xqnssa@qq.com', '', 1432774307, 2130706433, 1516688818, 0, 1432774307, 1);
+=======
+(1, 'admin', '4a7364270ebba0a7472a2e076bc5bd4c', 'xqnssa@qq.com', '', 1432774307, 2130706433, 1516676099, 0, 1432774307, 1);
+>>>>>>> zhangkun
 
 -- --------------------------------------------------------
 
@@ -1148,7 +1198,6 @@ INSERT INTO `so_user` (`id`, `UserName`, `PassWord`, `RealName`, `WorkId`, `IdCa
 (1, 'xqnssa', '202cb962ac59075b964b07152d234b70', '肖起', 'SO_001', '370983199004015336', '山东省肥城市', 1),
 (2, 'yueyue', 'aae72a8166bf3c7d5e78ded859189c75', '常成月', 'SO_002', '123', '山东省德州市', 2),
 (3, 'juner', '202cb962ac59075b964b07152d234b70', '张亚君', 'SO_003', 'xxx', '天津市南开区', 3),
-(4, 'fcdsvsd', '57a736948682813ae14d02a74f565aaf', 'vdsbsd', 'bfsdbfds', 'svdcbfsd', 'dsa', 1),
 (5, 'aaa', '202cb962ac59075b964b07152d234b70', 'a j', 'asx', 'asxa', 'asdc', 2);
 
 -- --------------------------------------------------------
@@ -1295,12 +1344,6 @@ ALTER TABLE `so_temp`
   ADD PRIMARY KEY (`table_id`);
 
 --
--- Indexes for table `so_test`
---
-ALTER TABLE `so_test`
-  ADD PRIMARY KEY (`id`);
-
---
 -- Indexes for table `so_ucenter_member`
 --
 ALTER TABLE `so_ucenter_member`
@@ -1328,7 +1371,11 @@ ALTER TABLE `so_action`
 -- 使用表AUTO_INCREMENT `so_action_log`
 --
 ALTER TABLE `so_action_log`
+<<<<<<< HEAD
   MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT COMMENT '主键', AUTO_INCREMENT=341;
+=======
+  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT COMMENT '主键', AUTO_INCREMENT=339;
+>>>>>>> zhangkun
 --
 -- 使用表AUTO_INCREMENT `so_addons`
 --
@@ -1348,7 +1395,7 @@ ALTER TABLE `so_ads`
 -- 使用表AUTO_INCREMENT `so_book`
 --
 ALTER TABLE `so_book`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=31;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=32;
 --
 -- 使用表AUTO_INCREMENT `so_category`
 --
@@ -1408,12 +1455,7 @@ ALTER TABLE `so_queue`
 -- 使用表AUTO_INCREMENT `so_table`
 --
 ALTER TABLE `so_table`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=32;
---
--- 使用表AUTO_INCREMENT `so_test`
---
-ALTER TABLE `so_test`
-  MODIFY `id` smallint(4) UNSIGNED NOT NULL AUTO_INCREMENT;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=38;
 --
 -- 使用表AUTO_INCREMENT `so_ucenter_member`
 --
