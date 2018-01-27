@@ -1,72 +1,18 @@
-[ 2018-01-24T18:14:01+08:00 ] 172.18.10.214 /SmartOrder/
+[ 2018-01-24T09:23:28+08:00 ] ::1 /smartorder/
 INFO: [ app_init ] --START--
-INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
-INFO: [ app_init ] --END-- [ RunTime:0.095005s ]
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000708s ]
 INFO: [ app_begin ] --START--
-INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.033002s ]
-INFO: [ app_begin ] --END-- [ RunTime:0.033002s ]
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000751s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000807s ]
 INFO: [ view_parse ] --START--
-INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012001s ]
-INFO: [ view_parse ] --END-- [ RunTime:0.012001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005268s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005355s ]
 INFO: [ view_filter ] --START--
-INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.025001s ]
-INFO: [ view_filter ] --END-- [ RunTime:0.026001s ]
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000516s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000546s ]
 INFO: [ app_end ] --START--
-INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
-INFO: Run Common\Behavior\CronRunBehavior [ RunTime:0.189011s ]
-INFO: [ app_end ] --END-- [ RunTime:0.190011s ]
-
-[ 2018-01-24T20:11:07+08:00 ] 172.18.10.214 /smartorder/
-INFO: [ app_init ] --START--
-INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
-INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
-INFO: [ app_begin ] --START--
-INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
-INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
-INFO: [ view_parse ] --START--
-INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015001s ]
-INFO: [ view_parse ] --END-- [ RunTime:0.015001s ]
-INFO: [ view_filter ] --START--
-INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.013001s ]
-INFO: [ view_filter ] --END-- [ RunTime:0.013001s ]
-INFO: [ app_end ] --START--
-INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.011000s ]
-INFO: Run Common\Behavior\CronRunBehavior [ RunTime:0.011001s ]
-INFO: [ app_end ] --END-- [ RunTime:0.022001s ]
-
-[ 2018-01-24T20:12:05+08:00 ] 172.18.10.214 /smartorder/
-INFO: [ app_init ] --START--
-INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
-INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
-INFO: [ app_begin ] --START--
-INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
-INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
-INFO: [ view_parse ] --START--
-INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
-INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
-INFO: [ view_filter ] --START--
-INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
-INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
-INFO: [ app_end ] --START--
-INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
-INFO: Run Common\Behavior\CronRunBehavior [ RunTime:0.006000s ]
-INFO: [ app_end ] --END-- [ RunTime:0.007000s ]
-
-[ 2018-01-24T20:12:13+08:00 ] 172.18.10.214 /smartorder/
-INFO: [ app_init ] --START--
-INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
-INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
-INFO: [ app_begin ] --START--
-INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
-INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
-INFO: [ view_parse ] --START--
-INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001000s ]
-INFO: [ view_parse ] --END-- [ RunTime:0.001000s ]
-INFO: [ view_filter ] --START--
-INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
-INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
-INFO: [ app_end ] --START--
-INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
-INFO: Run Common\Behavior\CronRunBehavior [ RunTime:0.006001s ]
-INFO: [ app_end ] --END-- [ RunTime:0.007001s ]
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000533s ]
+INFO: Run Common\Behavior\CronRunBehavior [ RunTime:0.006090s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006733s ]
 

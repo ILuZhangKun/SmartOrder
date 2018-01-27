@@ -1,0 +1,840 @@
+[ 2018-01-27T14:51:46+08:00 ] ::1 /SmartOrder/Cash/order/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.020001s ]
+NOTIC: [8] Use of undefined constant Cash - assumed 'Cash' E:\xampp\htdocs\SmartOrder\Application\Cash\Conf\config.php 第 7 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-01-27T14:51:46+08:00 ] ::1 /SmartOrder/Cash/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant Cash - assumed 'Cash' E:\xampp\htdocs\SmartOrder\Application\Cash\Conf\config.php 第 7 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: Run Common\Behavior\CronRunBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004000s ]
+
+[ 2018-01-27T14:51:53+08:00 ] ::1 /SmartOrder/Cash/Login/Login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant Cash - assumed 'Cash' E:\xampp\htdocs\SmartOrder\Application\Cash\Conf\config.php 第 7 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: SQLSTATE[HY000] [2002] ����Ŀ�����������ܾ����޷����ӡ�
+
+
+[ 2018-01-27T14:52:17+08:00 ] ::1 /SmartOrder/Cash/Login/Login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant Cash - assumed 'Cash' E:\xampp\htdocs\SmartOrder\Application\Cash\Conf\config.php 第 7 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+ERR: SQLSTATE[HY000] [2002] ����Ŀ�����������ܾ����޷����ӡ�
+
+
+[ 2018-01-27T14:52:37+08:00 ] ::1 /SmartOrder/Cash/Login/Login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant Cash - assumed 'Cash' E:\xampp\htdocs\SmartOrder\Application\Cash\Conf\config.php 第 7 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: SQLSTATE[HY000] [2002] ����Ŀ�����������ܾ����޷����ӡ�
+
+
+[ 2018-01-27T14:53:47+08:00 ] ::1 /SmartOrder/Cash/Login/Login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant Cash - assumed 'Cash' E:\xampp\htdocs\SmartOrder\Application\Cash\Conf\config.php 第 7 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: SQLSTATE[HY000] [2002] ����Ŀ�����������ܾ����޷����ӡ�
+
+
+[ 2018-01-27T14:54:11+08:00 ] ::1 /SmartOrder/Cash/Login/Login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant Cash - assumed 'Cash' E:\xampp\htdocs\SmartOrder\Application\Cash\Conf\config.php 第 7 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `so_cash` [ RunTime:0.0340s ]
+SQL: SELECT * FROM `so_cash` WHERE `username` = 'admin' LIMIT 1   [ RunTime:0.0400s ]
+NOTIC: [8] Undefined index: lock E:\xampp\htdocs\SmartOrder\Application\Cash\Controller\LoginController.class.php 第 34 行.
+
+[ 2018-01-27T14:54:11+08:00 ] ::1 /SmartOrder/Cash/Table/showTable.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant Cash - assumed 'Cash' E:\xampp\htdocs\SmartOrder\Application\Cash\Conf\config.php 第 7 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `so_table` [ RunTime:0.0390s ]
+SQL: SHOW COLUMNS FROM `so_temp` [ RunTime:0.0110s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in E:\xampp\htdocs\SmartOrder\Application\Cash\Model\TableModel.class.php on line 58 and defined E:\xampp\htdocs\SmartOrder\ThinkPHP\Library\Think\Model.class.php 第 1765 行.
+NOTIC: [8] Undefined variable: where E:\xampp\htdocs\SmartOrder\ThinkPHP\Library\Think\Model.class.php 第 1773 行.
+NOTIC: [8] Undefined variable: where E:\xampp\htdocs\SmartOrder\ThinkPHP\Library\Think\Model.class.php 第 1776 行.
+NOTIC: [8] Undefined variable: where E:\xampp\htdocs\SmartOrder\ThinkPHP\Library\Think\Model.class.php 第 1784 行.
+SQL: SELECT `table_id`,`holding`,`hold_time` FROM `so_temp`  [ RunTime:0.0150s ]
+SQL: SHOW COLUMNS FROM `so_table_hall` [ RunTime:0.0500s ]
+SQL: SELECT * FROM `so_table_hall` WHERE `is_lock` = 1  [ RunTime:0.0010s ]
+SQL: SELECT `table_id`,`start_time` FROM `so_temp` WHERE `start_time` < 1517025251  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `so_table_hall` WHERE `is_lock` = 1  [ RunTime:0.0020s ]
+NOTIC: [2048] Declaration of Admin\Model\TableModel::Add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) E:\xampp\htdocs\SmartOrder\Application\Admin\Model\TableModel.class.php 第 93 行.
+SQL: SHOW COLUMNS FROM `so_table` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `so_hall` [ RunTime:0.0030s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in E:\xampp\htdocs\SmartOrder\Application\Admin\Model\TableModel.class.php on line 38 and defined E:\xampp\htdocs\SmartOrder\ThinkPHP\Library\Think\Model.class.php 第 1765 行.
+NOTIC: [8] Undefined variable: where E:\xampp\htdocs\SmartOrder\ThinkPHP\Library\Think\Model.class.php 第 1773 行.
+NOTIC: [8] Undefined variable: where E:\xampp\htdocs\SmartOrder\ThinkPHP\Library\Think\Model.class.php 第 1776 行.
+NOTIC: [8] Undefined variable: where E:\xampp\htdocs\SmartOrder\ThinkPHP\Library\Think\Model.class.php 第 1784 行.
+SQL: SELECT * FROM `so_hall`  [ RunTime:0.0010s ]
+SQL: SELECT `id`,`table_name` FROM `so_table` WHERE `hall_id` = 1  [ RunTime:0.0010s ]
+SQL: SELECT `id`,`table_name` FROM `so_table` WHERE `hall_id` = 2  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`table_name` FROM `so_table` WHERE `hall_id` = 3  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`table_name` FROM `so_table` WHERE `hall_id` = 4  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`table_name` FROM `so_table` WHERE `hall_id` = 5  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `so_book` [ RunTime:0.0400s ]
+SQL: SELECT `book_day`,`book_time`,`book_name` FROM `so_book` WHERE `book_table` = 1 AND `book_status` = 0 AND `book_day` = '2018-01-27'  [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `so_table` WHERE `id` = 1 AND `is_lock` = 1 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: type E:\xampp\htdocs\SmartOrder\Application\Cash\Model\TableModel.class.php 第 48 行.
+SQL: SELECT `book_day`,`book_time`,`book_name` FROM `so_book` WHERE `book_table` = 8 AND `book_status` = 0 AND `book_day` = '2018-01-27'  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `so_table` WHERE `id` = 8 AND `is_lock` = 1 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: type E:\xampp\htdocs\SmartOrder\Application\Cash\Model\TableModel.class.php 第 48 行.
+SQL: SELECT `book_day`,`book_time`,`book_name` FROM `so_book` WHERE `book_table` = 15 AND `book_status` = 0 AND `book_day` = '2018-01-27'  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `so_table` WHERE `id` = 15 AND `is_lock` = 1 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: type E:\xampp\htdocs\SmartOrder\Application\Cash\Model\TableModel.class.php 第 48 行.
+SQL: SELECT `book_day`,`book_time`,`book_name` FROM `so_book` WHERE `book_table` = 21 AND `book_status` = 0 AND `book_day` = '2018-01-27'  [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `so_table` WHERE `id` = 21 AND `is_lock` = 1 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: type E:\xampp\htdocs\SmartOrder\Application\Cash\Model\TableModel.class.php 第 48 行.
+SQL: SELECT `book_day`,`book_time`,`book_name` FROM `so_book` WHERE `book_table` = 29 AND `book_status` = 0 AND `book_day` = '2018-01-27'  [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `so_table` WHERE `id` = 29 AND `is_lock` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `book_day`,`book_time`,`book_name` FROM `so_book` WHERE `book_table` = 30 AND `book_status` = 0 AND `book_day` = '2018-01-27'  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `so_table` WHERE `id` = 30 AND `is_lock` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `book_day`,`book_time`,`book_name` FROM `so_book` WHERE `book_table` = 31 AND `book_status` = 0 AND `book_day` = '2018-01-27'  [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `so_table` WHERE `id` = 31 AND `is_lock` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `book_day`,`book_time`,`book_name` FROM `so_book` WHERE `book_table` = 2 AND `book_status` = 0 AND `book_day` = '2018-01-27'  [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `so_table` WHERE `id` = 2 AND `is_lock` = 1 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: type E:\xampp\htdocs\SmartOrder\Application\Cash\Model\TableModel.class.php 第 48 行.
+SQL: SELECT `book_day`,`book_time`,`book_name` FROM `so_book` WHERE `book_table` = 9 AND `book_status` = 0 AND `book_day` = '2018-01-27'  [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `so_table` WHERE `id` = 9 AND `is_lock` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `book_day`,`book_time`,`book_name` FROM `so_book` WHERE `book_table` = 11 AND `book_status` = 0 AND `book_day` = '2018-01-27'  [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `so_table` WHERE `id` = 11 AND `is_lock` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `book_day`,`book_time`,`book_name` FROM `so_book` WHERE `book_table` = 20 AND `book_status` = 0 AND `book_day` = '2018-01-27'  [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `so_table` WHERE `id` = 20 AND `is_lock` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `book_day`,`book_time`,`book_name` FROM `so_book` WHERE `book_table` = 23 AND `book_status` = 0 AND `book_day` = '2018-01-27'  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `so_table` WHERE `id` = 23 AND `is_lock` = 1 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: type E:\xampp\htdocs\SmartOrder\Application\Cash\Model\TableModel.class.php 第 48 行.
+SQL: SELECT `book_day`,`book_time`,`book_name` FROM `so_book` WHERE `book_table` = 24 AND `book_status` = 0 AND `book_day` = '2018-01-27'  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `so_table` WHERE `id` = 24 AND `is_lock` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `book_day`,`book_time`,`book_name` FROM `so_book` WHERE `book_table` = 27 AND `book_status` = 0 AND `book_day` = '2018-01-27'  [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `so_table` WHERE `id` = 27 AND `is_lock` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `book_day`,`book_time`,`book_name` FROM `so_book` WHERE `book_table` = 18 AND `book_status` = 0 AND `book_day` = '2018-01-27'  [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `so_table` WHERE `id` = 18 AND `is_lock` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `book_day`,`book_time`,`book_name` FROM `so_book` WHERE `book_table` = 25 AND `book_status` = 0 AND `book_day` = '2018-01-27'  [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `so_table` WHERE `id` = 25 AND `is_lock` = 1 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: type E:\xampp\htdocs\SmartOrder\Application\Cash\Model\TableModel.class.php 第 48 行.
+SQL: SELECT `book_day`,`book_time`,`book_name` FROM `so_book` WHERE `book_table` = 22 AND `book_status` = 0 AND `book_day` = '2018-01-27'  [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `so_table` WHERE `id` = 22 AND `is_lock` = 1 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: type E:\xampp\htdocs\SmartOrder\Application\Cash\Model\TableModel.class.php 第 48 行.
+SQL: SELECT `book_day`,`book_time`,`book_name` FROM `so_book` WHERE `book_table` = 26 AND `book_status` = 0 AND `book_day` = '2018-01-27'  [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `so_table` WHERE `id` = 26 AND `is_lock` = 1 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: type E:\xampp\htdocs\SmartOrder\Application\Cash\Model\TableModel.class.php 第 48 行.
+SQL: SELECT `book_day`,`book_time`,`book_name` FROM `so_book` WHERE `book_table` = 28 AND `book_status` = 0 AND `book_day` = '2018-01-27'  [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `so_table` WHERE `id` = 28 AND `is_lock` = 1 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: info E:\xampp\htdocs\SmartOrder\Runtime\Cache\Cash\5647ca14edb9bdf98405dba803324ae2.php 第 133 行.
+NOTIC: [8] Undefined index: info E:\xampp\htdocs\SmartOrder\Runtime\Cache\Cash\5647ca14edb9bdf98405dba803324ae2.php 第 133 行.
+NOTIC: [8] Undefined index: info E:\xampp\htdocs\SmartOrder\Runtime\Cache\Cash\5647ca14edb9bdf98405dba803324ae2.php 第 133 行.
+NOTIC: [8] Undefined index: info E:\xampp\htdocs\SmartOrder\Runtime\Cache\Cash\5647ca14edb9bdf98405dba803324ae2.php 第 133 行.
+NOTIC: [8] Undefined index: info E:\xampp\htdocs\SmartOrder\Runtime\Cache\Cash\5647ca14edb9bdf98405dba803324ae2.php 第 133 行.
+NOTIC: [8] Undefined index: info E:\xampp\htdocs\SmartOrder\Runtime\Cache\Cash\5647ca14edb9bdf98405dba803324ae2.php 第 133 行.
+NOTIC: [8] Undefined index: info E:\xampp\htdocs\SmartOrder\Runtime\Cache\Cash\5647ca14edb9bdf98405dba803324ae2.php 第 133 行.
+NOTIC: [8] Undefined index: info E:\xampp\htdocs\SmartOrder\Runtime\Cache\Cash\5647ca14edb9bdf98405dba803324ae2.php 第 133 行.
+NOTIC: [8] Undefined index: info E:\xampp\htdocs\SmartOrder\Runtime\Cache\Cash\5647ca14edb9bdf98405dba803324ae2.php 第 133 行.
+NOTIC: [8] Undefined index: info E:\xampp\htdocs\SmartOrder\Runtime\Cache\Cash\5647ca14edb9bdf98405dba803324ae2.php 第 133 行.
+NOTIC: [8] Undefined index: info E:\xampp\htdocs\SmartOrder\Runtime\Cache\Cash\5647ca14edb9bdf98405dba803324ae2.php 第 133 行.
+NOTIC: [8] Undefined index: info E:\xampp\htdocs\SmartOrder\Runtime\Cache\Cash\5647ca14edb9bdf98405dba803324ae2.php 第 133 行.
+NOTIC: [8] Undefined index: info E:\xampp\htdocs\SmartOrder\Runtime\Cache\Cash\5647ca14edb9bdf98405dba803324ae2.php 第 133 行.
+NOTIC: [8] Undefined index: info E:\xampp\htdocs\SmartOrder\Runtime\Cache\Cash\5647ca14edb9bdf98405dba803324ae2.php 第 133 行.
+NOTIC: [8] Undefined index: info E:\xampp\htdocs\SmartOrder\Runtime\Cache\Cash\5647ca14edb9bdf98405dba803324ae2.php 第 133 行.
+NOTIC: [8] Undefined index: info E:\xampp\htdocs\SmartOrder\Runtime\Cache\Cash\5647ca14edb9bdf98405dba803324ae2.php 第 133 行.
+NOTIC: [8] Undefined index: info E:\xampp\htdocs\SmartOrder\Runtime\Cache\Cash\5647ca14edb9bdf98405dba803324ae2.php 第 133 行.
+NOTIC: [8] Undefined index: info E:\xampp\htdocs\SmartOrder\Runtime\Cache\Cash\5647ca14edb9bdf98405dba803324ae2.php 第 133 行.
+NOTIC: [8] Undefined index: info E:\xampp\htdocs\SmartOrder\Runtime\Cache\Cash\5647ca14edb9bdf98405dba803324ae2.php 第 133 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.090005s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.090005s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\CronRunBehavior [ RunTime:0.005000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005000s ]
+
+[ 2018-01-27T14:54:36+08:00 ] ::1 /SmartOrder/Cash/order/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant Cash - assumed 'Cash' E:\xampp\htdocs\SmartOrder\Application\Cash\Conf\config.php 第 7 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `so_table` [ RunTime:0.0040s ]
+NOTIC: [2] Missing argument 1 for Cash\Model\TableModel::getTableInfo(), called in E:\xampp\htdocs\SmartOrder\Application\Cash\Controller\OrderController.class.php on line 15 and defined E:\xampp\htdocs\SmartOrder\Application\Cash\Model\TableModel.class.php 第 24 行.
+NOTIC: [2048] Declaration of Admin\Model\TableModel::Add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) E:\xampp\htdocs\SmartOrder\Application\Admin\Model\TableModel.class.php 第 93 行.
+SQL: SHOW COLUMNS FROM `so_table` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `so_hall` [ RunTime:0.0050s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in E:\xampp\htdocs\SmartOrder\Application\Admin\Model\TableModel.class.php on line 38 and defined E:\xampp\htdocs\SmartOrder\ThinkPHP\Library\Think\Model.class.php 第 1765 行.
+NOTIC: [8] Undefined variable: where E:\xampp\htdocs\SmartOrder\ThinkPHP\Library\Think\Model.class.php 第 1773 行.
+NOTIC: [8] Undefined variable: where E:\xampp\htdocs\SmartOrder\ThinkPHP\Library\Think\Model.class.php 第 1776 行.
+NOTIC: [8] Undefined variable: where E:\xampp\htdocs\SmartOrder\ThinkPHP\Library\Think\Model.class.php 第 1784 行.
+SQL: SELECT * FROM `so_hall`  [ RunTime:0.0010s ]
+SQL: SELECT `id`,`table_name` FROM `so_table` WHERE `hall_id` = 1  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`table_name` FROM `so_table` WHERE `hall_id` = 2  [ RunTime:0.0010s ]
+SQL: SELECT `id`,`table_name` FROM `so_table` WHERE `hall_id` = 3  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`table_name` FROM `so_table` WHERE `hall_id` = 4  [ RunTime:0.0010s ]
+SQL: SELECT `id`,`table_name` FROM `so_table` WHERE `hall_id` = 5  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: date E:\xampp\htdocs\SmartOrder\Application\Cash\Model\TableModel.class.php 第 31 行.
+SQL: SHOW COLUMNS FROM `so_book` [ RunTime:0.0040s ]
+SQL: SELECT `book_day`,`book_time`,`book_name` FROM `so_book` WHERE `book_table` = 1 AND `book_status` = 0 AND `book_day` = null  [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `so_table` WHERE `id` = 1 AND `is_lock` = 1 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: type E:\xampp\htdocs\SmartOrder\Application\Cash\Model\TableModel.class.php 第 48 行.
+NOTIC: [8] Undefined variable: date E:\xampp\htdocs\SmartOrder\Application\Cash\Model\TableModel.class.php 第 31 行.
+SQL: SELECT `book_day`,`book_time`,`book_name` FROM `so_book` WHERE `book_table` = 8 AND `book_status` = 0 AND `book_day` = null  [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `so_table` WHERE `id` = 8 AND `is_lock` = 1 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: type E:\xampp\htdocs\SmartOrder\Application\Cash\Model\TableModel.class.php 第 48 行.
+NOTIC: [8] Undefined variable: date E:\xampp\htdocs\SmartOrder\Application\Cash\Model\TableModel.class.php 第 31 行.
+SQL: SELECT `book_day`,`book_time`,`book_name` FROM `so_book` WHERE `book_table` = 15 AND `book_status` = 0 AND `book_day` = null  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `so_table` WHERE `id` = 15 AND `is_lock` = 1 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: type E:\xampp\htdocs\SmartOrder\Application\Cash\Model\TableModel.class.php 第 48 行.
+NOTIC: [8] Undefined variable: date E:\xampp\htdocs\SmartOrder\Application\Cash\Model\TableModel.class.php 第 31 行.
+SQL: SELECT `book_day`,`book_time`,`book_name` FROM `so_book` WHERE `book_table` = 21 AND `book_status` = 0 AND `book_day` = null  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `so_table` WHERE `id` = 21 AND `is_lock` = 1 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: type E:\xampp\htdocs\SmartOrder\Application\Cash\Model\TableModel.class.php 第 48 行.
+NOTIC: [8] Undefined variable: date E:\xampp\htdocs\SmartOrder\Application\Cash\Model\TableModel.class.php 第 31 行.
+SQL: SELECT `book_day`,`book_time`,`book_name` FROM `so_book` WHERE `book_table` = 29 AND `book_status` = 0 AND `book_day` = null  [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `so_table` WHERE `id` = 29 AND `is_lock` = 1 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: date E:\xampp\htdocs\SmartOrder\Application\Cash\Model\TableModel.class.php 第 31 行.
+SQL: SELECT `book_day`,`book_time`,`book_name` FROM `so_book` WHERE `book_table` = 30 AND `book_status` = 0 AND `book_day` = null  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `so_table` WHERE `id` = 30 AND `is_lock` = 1 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: date E:\xampp\htdocs\SmartOrder\Application\Cash\Model\TableModel.class.php 第 31 行.
+SQL: SELECT `book_day`,`book_time`,`book_name` FROM `so_book` WHERE `book_table` = 31 AND `book_status` = 0 AND `book_day` = null  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `so_table` WHERE `id` = 31 AND `is_lock` = 1 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: date E:\xampp\htdocs\SmartOrder\Application\Cash\Model\TableModel.class.php 第 31 行.
+SQL: SELECT `book_day`,`book_time`,`book_name` FROM `so_book` WHERE `book_table` = 2 AND `book_status` = 0 AND `book_day` = null  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `so_table` WHERE `id` = 2 AND `is_lock` = 1 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: type E:\xampp\htdocs\SmartOrder\Application\Cash\Model\TableModel.class.php 第 48 行.
+NOTIC: [8] Undefined variable: date E:\xampp\htdocs\SmartOrder\Application\Cash\Model\TableModel.class.php 第 31 行.
+SQL: SELECT `book_day`,`book_time`,`book_name` FROM `so_book` WHERE `book_table` = 9 AND `book_status` = 0 AND `book_day` = null  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `so_table` WHERE `id` = 9 AND `is_lock` = 1 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: date E:\xampp\htdocs\SmartOrder\Application\Cash\Model\TableModel.class.php 第 31 行.
+SQL: SELECT `book_day`,`book_time`,`book_name` FROM `so_book` WHERE `book_table` = 11 AND `book_status` = 0 AND `book_day` = null  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `so_table` WHERE `id` = 11 AND `is_lock` = 1 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: date E:\xampp\htdocs\SmartOrder\Application\Cash\Model\TableModel.class.php 第 31 行.
+SQL: SELECT `book_day`,`book_time`,`book_name` FROM `so_book` WHERE `book_table` = 20 AND `book_status` = 0 AND `book_day` = null  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `so_table` WHERE `id` = 20 AND `is_lock` = 1 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: date E:\xampp\htdocs\SmartOrder\Application\Cash\Model\TableModel.class.php 第 31 行.
+SQL: SELECT `book_day`,`book_time`,`book_name` FROM `so_book` WHERE `book_table` = 23 AND `book_status` = 0 AND `book_day` = null  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `so_table` WHERE `id` = 23 AND `is_lock` = 1 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: type E:\xampp\htdocs\SmartOrder\Application\Cash\Model\TableModel.class.php 第 48 行.
+NOTIC: [8] Undefined variable: date E:\xampp\htdocs\SmartOrder\Application\Cash\Model\TableModel.class.php 第 31 行.
+SQL: SELECT `book_day`,`book_time`,`book_name` FROM `so_book` WHERE `book_table` = 24 AND `book_status` = 0 AND `book_day` = null  [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `so_table` WHERE `id` = 24 AND `is_lock` = 1 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: date E:\xampp\htdocs\SmartOrder\Application\Cash\Model\TableModel.class.php 第 31 行.
+SQL: SELECT `book_day`,`book_time`,`book_name` FROM `so_book` WHERE `book_table` = 27 AND `book_status` = 0 AND `book_day` = null  [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `so_table` WHERE `id` = 27 AND `is_lock` = 1 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: date E:\xampp\htdocs\SmartOrder\Application\Cash\Model\TableModel.class.php 第 31 行.
+SQL: SELECT `book_day`,`book_time`,`book_name` FROM `so_book` WHERE `book_table` = 18 AND `book_status` = 0 AND `book_day` = null  [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `so_table` WHERE `id` = 18 AND `is_lock` = 1 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: date E:\xampp\htdocs\SmartOrder\Application\Cash\Model\TableModel.class.php 第 31 行.
+SQL: SELECT `book_day`,`book_time`,`book_name` FROM `so_book` WHERE `book_table` = 25 AND `book_status` = 0 AND `book_day` = null  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `so_table` WHERE `id` = 25 AND `is_lock` = 1 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: type E:\xampp\htdocs\SmartOrder\Application\Cash\Model\TableModel.class.php 第 48 行.
+NOTIC: [8] Undefined variable: date E:\xampp\htdocs\SmartOrder\Application\Cash\Model\TableModel.class.php 第 31 行.
+SQL: SELECT `book_day`,`book_time`,`book_name` FROM `so_book` WHERE `book_table` = 22 AND `book_status` = 0 AND `book_day` = null  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `so_table` WHERE `id` = 22 AND `is_lock` = 1 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: type E:\xampp\htdocs\SmartOrder\Application\Cash\Model\TableModel.class.php 第 48 行.
+NOTIC: [8] Undefined variable: date E:\xampp\htdocs\SmartOrder\Application\Cash\Model\TableModel.class.php 第 31 行.
+SQL: SELECT `book_day`,`book_time`,`book_name` FROM `so_book` WHERE `book_table` = 26 AND `book_status` = 0 AND `book_day` = null  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `so_table` WHERE `id` = 26 AND `is_lock` = 1 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: type E:\xampp\htdocs\SmartOrder\Application\Cash\Model\TableModel.class.php 第 48 行.
+NOTIC: [8] Undefined variable: date E:\xampp\htdocs\SmartOrder\Application\Cash\Model\TableModel.class.php 第 31 行.
+SQL: SELECT `book_day`,`book_time`,`book_name` FROM `so_book` WHERE `book_table` = 28 AND `book_status` = 0 AND `book_day` = null  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `so_table` WHERE `id` = 28 AND `is_lock` = 1 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: tableId E:\xampp\htdocs\SmartOrder\Runtime\Cache\Cash\e08533cf47e334f70bf04a06151df1c1.php 第 129 行.
+NOTIC: [8] Undefined variable: pay_time E:\xampp\htdocs\SmartOrder\Runtime\Cache\Cash\e08533cf47e334f70bf04a06151df1c1.php 第 131 行.
+NOTIC: [8] Undefined variable: payInfo E:\xampp\htdocs\SmartOrder\Runtime\Cache\Cash\e08533cf47e334f70bf04a06151df1c1.php 第 144 行.
+NOTIC: [8] Undefined variable: totle E:\xampp\htdocs\SmartOrder\Runtime\Cache\Cash\e08533cf47e334f70bf04a06151df1c1.php 第 152 行.
+NOTIC: [8] Undefined variable: totle E:\xampp\htdocs\SmartOrder\Runtime\Cache\Cash\e08533cf47e334f70bf04a06151df1c1.php 第 154 行.
+NOTIC: [8] Undefined variable: oid E:\xampp\htdocs\SmartOrder\Runtime\Cache\Cash\e08533cf47e334f70bf04a06151df1c1.php 第 182 行.
+NOTIC: [8] Undefined variable: payInfo E:\xampp\htdocs\SmartOrder\Runtime\Cache\Cash\e08533cf47e334f70bf04a06151df1c1.php 第 192 行.
+NOTIC: [8] Undefined variable: totle E:\xampp\htdocs\SmartOrder\Runtime\Cache\Cash\e08533cf47e334f70bf04a06151df1c1.php 第 204 行.
+NOTIC: [8] Undefined variable: totle E:\xampp\htdocs\SmartOrder\Runtime\Cache\Cash\e08533cf47e334f70bf04a06151df1c1.php 第 210 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: Run Common\Behavior\CronRunBehavior [ RunTime:0.004001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006001s ]
+
+[ 2018-01-27T14:54:38+08:00 ] ::1 /SmartOrder/Cash/book/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant Cash - assumed 'Cash' E:\xampp\htdocs\SmartOrder\Application\Cash\Conf\config.php 第 7 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `so_book` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `so_book` WHERE `book_status` = 0  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `so_book` WHERE `book_status` = 0  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `so_table` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `so_table` WHERE `id` = 9  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `so_hall` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `so_hall` WHERE `id` = 2  [ RunTime:0.0010s ]
+NOTIC: [2] Missing argument 1 for Cash\Model\TableModel::getTableInfo(), called in E:\xampp\htdocs\SmartOrder\Application\Cash\Controller\BookController.class.php on line 21 and defined E:\xampp\htdocs\SmartOrder\Application\Cash\Model\TableModel.class.php 第 24 行.
+NOTIC: [2048] Declaration of Admin\Model\TableModel::Add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) E:\xampp\htdocs\SmartOrder\Application\Admin\Model\TableModel.class.php 第 93 行.
+SQL: SHOW COLUMNS FROM `so_table` [ RunTime:0.0040s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in E:\xampp\htdocs\SmartOrder\Application\Admin\Model\TableModel.class.php on line 38 and defined E:\xampp\htdocs\SmartOrder\ThinkPHP\Library\Think\Model.class.php 第 1765 行.
+NOTIC: [8] Undefined variable: where E:\xampp\htdocs\SmartOrder\ThinkPHP\Library\Think\Model.class.php 第 1773 行.
+NOTIC: [8] Undefined variable: where E:\xampp\htdocs\SmartOrder\ThinkPHP\Library\Think\Model.class.php 第 1776 行.
+NOTIC: [8] Undefined variable: where E:\xampp\htdocs\SmartOrder\ThinkPHP\Library\Think\Model.class.php 第 1784 行.
+SQL: SELECT * FROM `so_hall`  [ RunTime:0.0010s ]
+SQL: SELECT `id`,`table_name` FROM `so_table` WHERE `hall_id` = 1  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`table_name` FROM `so_table` WHERE `hall_id` = 2  [ RunTime:0.0010s ]
+SQL: SELECT `id`,`table_name` FROM `so_table` WHERE `hall_id` = 3  [ RunTime:0.0010s ]
+SQL: SELECT `id`,`table_name` FROM `so_table` WHERE `hall_id` = 4  [ RunTime:0.0010s ]
+SQL: SELECT `id`,`table_name` FROM `so_table` WHERE `hall_id` = 5  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: date E:\xampp\htdocs\SmartOrder\Application\Cash\Model\TableModel.class.php 第 31 行.
+SQL: SELECT `book_day`,`book_time`,`book_name` FROM `so_book` WHERE `book_table` = 1 AND `book_status` = 0 AND `book_day` = null  [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `so_table` WHERE `id` = 1 AND `is_lock` = 1 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: type E:\xampp\htdocs\SmartOrder\Application\Cash\Model\TableModel.class.php 第 48 行.
+NOTIC: [8] Undefined variable: date E:\xampp\htdocs\SmartOrder\Application\Cash\Model\TableModel.class.php 第 31 行.
+SQL: SELECT `book_day`,`book_time`,`book_name` FROM `so_book` WHERE `book_table` = 8 AND `book_status` = 0 AND `book_day` = null  [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `so_table` WHERE `id` = 8 AND `is_lock` = 1 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: type E:\xampp\htdocs\SmartOrder\Application\Cash\Model\TableModel.class.php 第 48 行.
+NOTIC: [8] Undefined variable: date E:\xampp\htdocs\SmartOrder\Application\Cash\Model\TableModel.class.php 第 31 行.
+SQL: SELECT `book_day`,`book_time`,`book_name` FROM `so_book` WHERE `book_table` = 15 AND `book_status` = 0 AND `book_day` = null  [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `so_table` WHERE `id` = 15 AND `is_lock` = 1 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: type E:\xampp\htdocs\SmartOrder\Application\Cash\Model\TableModel.class.php 第 48 行.
+NOTIC: [8] Undefined variable: date E:\xampp\htdocs\SmartOrder\Application\Cash\Model\TableModel.class.php 第 31 行.
+SQL: SELECT `book_day`,`book_time`,`book_name` FROM `so_book` WHERE `book_table` = 21 AND `book_status` = 0 AND `book_day` = null  [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `so_table` WHERE `id` = 21 AND `is_lock` = 1 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: type E:\xampp\htdocs\SmartOrder\Application\Cash\Model\TableModel.class.php 第 48 行.
+NOTIC: [8] Undefined variable: date E:\xampp\htdocs\SmartOrder\Application\Cash\Model\TableModel.class.php 第 31 行.
+SQL: SELECT `book_day`,`book_time`,`book_name` FROM `so_book` WHERE `book_table` = 29 AND `book_status` = 0 AND `book_day` = null  [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `so_table` WHERE `id` = 29 AND `is_lock` = 1 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: date E:\xampp\htdocs\SmartOrder\Application\Cash\Model\TableModel.class.php 第 31 行.
+SQL: SELECT `book_day`,`book_time`,`book_name` FROM `so_book` WHERE `book_table` = 30 AND `book_status` = 0 AND `book_day` = null  [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `so_table` WHERE `id` = 30 AND `is_lock` = 1 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: date E:\xampp\htdocs\SmartOrder\Application\Cash\Model\TableModel.class.php 第 31 行.
+SQL: SELECT `book_day`,`book_time`,`book_name` FROM `so_book` WHERE `book_table` = 31 AND `book_status` = 0 AND `book_day` = null  [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `so_table` WHERE `id` = 31 AND `is_lock` = 1 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: date E:\xampp\htdocs\SmartOrder\Application\Cash\Model\TableModel.class.php 第 31 行.
+SQL: SELECT `book_day`,`book_time`,`book_name` FROM `so_book` WHERE `book_table` = 2 AND `book_status` = 0 AND `book_day` = null  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `so_table` WHERE `id` = 2 AND `is_lock` = 1 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: type E:\xampp\htdocs\SmartOrder\Application\Cash\Model\TableModel.class.php 第 48 行.
+NOTIC: [8] Undefined variable: date E:\xampp\htdocs\SmartOrder\Application\Cash\Model\TableModel.class.php 第 31 行.
+SQL: SELECT `book_day`,`book_time`,`book_name` FROM `so_book` WHERE `book_table` = 9 AND `book_status` = 0 AND `book_day` = null  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `so_table` WHERE `id` = 9 AND `is_lock` = 1 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: date E:\xampp\htdocs\SmartOrder\Application\Cash\Model\TableModel.class.php 第 31 行.
+SQL: SELECT `book_day`,`book_time`,`book_name` FROM `so_book` WHERE `book_table` = 11 AND `book_status` = 0 AND `book_day` = null  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `so_table` WHERE `id` = 11 AND `is_lock` = 1 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: date E:\xampp\htdocs\SmartOrder\Application\Cash\Model\TableModel.class.php 第 31 行.
+SQL: SELECT `book_day`,`book_time`,`book_name` FROM `so_book` WHERE `book_table` = 20 AND `book_status` = 0 AND `book_day` = null  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `so_table` WHERE `id` = 20 AND `is_lock` = 1 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: date E:\xampp\htdocs\SmartOrder\Application\Cash\Model\TableModel.class.php 第 31 行.
+SQL: SELECT `book_day`,`book_time`,`book_name` FROM `so_book` WHERE `book_table` = 23 AND `book_status` = 0 AND `book_day` = null  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `so_table` WHERE `id` = 23 AND `is_lock` = 1 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: type E:\xampp\htdocs\SmartOrder\Application\Cash\Model\TableModel.class.php 第 48 行.
+NOTIC: [8] Undefined variable: date E:\xampp\htdocs\SmartOrder\Application\Cash\Model\TableModel.class.php 第 31 行.
+SQL: SELECT `book_day`,`book_time`,`book_name` FROM `so_book` WHERE `book_table` = 24 AND `book_status` = 0 AND `book_day` = null  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `so_table` WHERE `id` = 24 AND `is_lock` = 1 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: date E:\xampp\htdocs\SmartOrder\Application\Cash\Model\TableModel.class.php 第 31 行.
+SQL: SELECT `book_day`,`book_time`,`book_name` FROM `so_book` WHERE `book_table` = 27 AND `book_status` = 0 AND `book_day` = null  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `so_table` WHERE `id` = 27 AND `is_lock` = 1 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: date E:\xampp\htdocs\SmartOrder\Application\Cash\Model\TableModel.class.php 第 31 行.
+SQL: SELECT `book_day`,`book_time`,`book_name` FROM `so_book` WHERE `book_table` = 18 AND `book_status` = 0 AND `book_day` = null  [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `so_table` WHERE `id` = 18 AND `is_lock` = 1 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: date E:\xampp\htdocs\SmartOrder\Application\Cash\Model\TableModel.class.php 第 31 行.
+SQL: SELECT `book_day`,`book_time`,`book_name` FROM `so_book` WHERE `book_table` = 25 AND `book_status` = 0 AND `book_day` = null  [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `so_table` WHERE `id` = 25 AND `is_lock` = 1 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: type E:\xampp\htdocs\SmartOrder\Application\Cash\Model\TableModel.class.php 第 48 行.
+NOTIC: [8] Undefined variable: date E:\xampp\htdocs\SmartOrder\Application\Cash\Model\TableModel.class.php 第 31 行.
+SQL: SELECT `book_day`,`book_time`,`book_name` FROM `so_book` WHERE `book_table` = 22 AND `book_status` = 0 AND `book_day` = null  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `so_table` WHERE `id` = 22 AND `is_lock` = 1 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: type E:\xampp\htdocs\SmartOrder\Application\Cash\Model\TableModel.class.php 第 48 行.
+NOTIC: [8] Undefined variable: date E:\xampp\htdocs\SmartOrder\Application\Cash\Model\TableModel.class.php 第 31 行.
+SQL: SELECT `book_day`,`book_time`,`book_name` FROM `so_book` WHERE `book_table` = 26 AND `book_status` = 0 AND `book_day` = null  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `so_table` WHERE `id` = 26 AND `is_lock` = 1 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: type E:\xampp\htdocs\SmartOrder\Application\Cash\Model\TableModel.class.php 第 48 行.
+NOTIC: [8] Undefined variable: date E:\xampp\htdocs\SmartOrder\Application\Cash\Model\TableModel.class.php 第 31 行.
+SQL: SELECT `book_day`,`book_time`,`book_name` FROM `so_book` WHERE `book_table` = 28 AND `book_status` = 0 AND `book_day` = null  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `so_table` WHERE `id` = 28 AND `is_lock` = 1 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: Run Common\Behavior\CronRunBehavior [ RunTime:0.005000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006000s ]
+
+[ 2018-01-27T14:54:43+08:00 ] ::1 /SmartOrder/Cash/manage/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant Cash - assumed 'Cash' E:\xampp\htdocs\SmartOrder\Application\Cash\Conf\config.php 第 7 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Cash\Model\ManageModel::Add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) E:\xampp\htdocs\SmartOrder\Application\Cash\Model\ManageModel.class.php 第 8 行.
+SQL: SHOW COLUMNS FROM `so_hall` [ RunTime:0.0040s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in E:\xampp\htdocs\SmartOrder\Application\Cash\Model\ManageModel.class.php on line 18 and defined E:\xampp\htdocs\SmartOrder\ThinkPHP\Library\Think\Model.class.php 第 1765 行.
+NOTIC: [8] Undefined variable: where E:\xampp\htdocs\SmartOrder\ThinkPHP\Library\Think\Model.class.php 第 1773 行.
+NOTIC: [8] Undefined variable: where E:\xampp\htdocs\SmartOrder\ThinkPHP\Library\Think\Model.class.php 第 1776 行.
+NOTIC: [8] Undefined variable: where E:\xampp\htdocs\SmartOrder\ThinkPHP\Library\Think\Model.class.php 第 1784 行.
+SQL: SELECT * FROM `so_hall`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `so_table` [ RunTime:0.0030s ]
+SQL: SELECT `id`,`table_name` FROM `so_table` WHERE `hall_id` = 1  [ RunTime:0.0010s ]
+SQL: SELECT `id`,`table_name` FROM `so_table` WHERE `hall_id` = 2  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`table_name` FROM `so_table` WHERE `hall_id` = 3  [ RunTime:0.0010s ]
+SQL: SELECT `id`,`table_name` FROM `so_table` WHERE `hall_id` = 4  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`table_name` FROM `so_table` WHERE `hall_id` = 5  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: Run Common\Behavior\CronRunBehavior [ RunTime:0.004000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005000s ]
+
+[ 2018-01-27T14:54:45+08:00 ] ::1 /SmartOrder/Cash/other/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant Cash - assumed 'Cash' E:\xampp\htdocs\SmartOrder\Application\Cash\Conf\config.php 第 7 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `so_order` [ RunTime:0.0400s ]
+SQL: SELECT `order_time`,`table_id`,total_money as real_money FROM `so_order` WHERE `order_time` BETWEEN 1516982400 AND 1517068800 AND `is_pay` = 0  [ RunTime:0.0020s ]
+SQL: select t.*,h.name from so_table as t,so_hall as h where t.hall_id=h.id  [ RunTime:0.0010s ]
+SQL: SELECT `order_time`,`table_id`,total_money as real_money FROM `so_order` WHERE `order_time` BETWEEN 1516982400 AND 1517068800 AND `is_pay` = 1  [ RunTime:0.0010s ]
+SQL: select t.*,h.name from so_table as t,so_hall as h where t.hall_id=h.id  [ RunTime:0.0010s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\xampp\htdocs\SmartOrder\Application\Cash\Controller\OtherController.class.php 第 36 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: Run Common\Behavior\CronRunBehavior [ RunTime:0.005000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007000s ]
+
+[ 2018-01-27T14:54:46+08:00 ] ::1 /SmartOrder/Cash/other/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant Cash - assumed 'Cash' E:\xampp\htdocs\SmartOrder\Application\Cash\Conf\config.php 第 7 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `so_order` [ RunTime:0.0040s ]
+SQL: SELECT `order_time`,`table_id`,total_money as real_money FROM `so_order` WHERE `order_time` BETWEEN 1516982400 AND 1517068800 AND `is_pay` = 0  [ RunTime:0.0010s ]
+SQL: select t.*,h.name from so_table as t,so_hall as h where t.hall_id=h.id  [ RunTime:0.0000s ]
+SQL: SELECT `order_time`,`table_id`,total_money as real_money FROM `so_order` WHERE `order_time` BETWEEN 1516982400 AND 1517068800 AND `is_pay` = 1  [ RunTime:0.0000s ]
+SQL: select t.*,h.name from so_table as t,so_hall as h where t.hall_id=h.id  [ RunTime:0.0010s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\xampp\htdocs\SmartOrder\Application\Cash\Controller\OtherController.class.php 第 36 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: Run Common\Behavior\CronRunBehavior [ RunTime:0.006001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007001s ]
+
+[ 2018-01-27T14:54:48+08:00 ] ::1 /SmartOrder/Cash/other/menulist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant Cash - assumed 'Cash' E:\xampp\htdocs\SmartOrder\Application\Cash\Conf\config.php 第 7 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `so_cookstyle` [ RunTime:0.0570s ]
+SQL: SELECT * FROM `so_cookstyle` WHERE ( is_delete = 0 )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `so_cookmenu` [ RunTime:0.0230s ]
+SQL: SELECT `cookname`,`stylename`,`picture`,so_cookmenu.id,`price`,`standard`,`recommend`,`styleid` FROM `so_cookmenu` INNER JOIN so_cookstyle on so_cookmenu.styleid=so_cookstyle.c_id  WHERE ( so_cookmenu.is_delete != 1 and so_cookmenu.styleid=8 )  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: cid E:\xampp\htdocs\SmartOrder\Runtime\Cache\Cash\748279a760db963d3da7e0dc3d033a93.php 第 128 行.
+NOTIC: [8] Undefined variable: cid E:\xampp\htdocs\SmartOrder\Runtime\Cache\Cash\748279a760db963d3da7e0dc3d033a93.php 第 128 行.
+NOTIC: [8] Undefined variable: cid E:\xampp\htdocs\SmartOrder\Runtime\Cache\Cash\748279a760db963d3da7e0dc3d033a93.php 第 128 行.
+NOTIC: [8] Undefined variable: cid E:\xampp\htdocs\SmartOrder\Runtime\Cache\Cash\748279a760db963d3da7e0dc3d033a93.php 第 128 行.
+NOTIC: [8] Undefined variable: cid E:\xampp\htdocs\SmartOrder\Runtime\Cache\Cash\748279a760db963d3da7e0dc3d033a93.php 第 128 行.
+NOTIC: [8] Undefined variable: cid E:\xampp\htdocs\SmartOrder\Runtime\Cache\Cash\748279a760db963d3da7e0dc3d033a93.php 第 128 行.
+NOTIC: [8] Undefined variable: cid E:\xampp\htdocs\SmartOrder\Runtime\Cache\Cash\748279a760db963d3da7e0dc3d033a93.php 第 128 行.
+NOTIC: [8] Undefined variable: cid E:\xampp\htdocs\SmartOrder\Runtime\Cache\Cash\748279a760db963d3da7e0dc3d033a93.php 第 128 行.
+NOTIC: [8] Undefined variable: cid E:\xampp\htdocs\SmartOrder\Runtime\Cache\Cash\748279a760db963d3da7e0dc3d033a93.php 第 128 行.
+NOTIC: [8] Undefined variable: cid E:\xampp\htdocs\SmartOrder\Runtime\Cache\Cash\748279a760db963d3da7e0dc3d033a93.php 第 128 行.
+NOTIC: [8] Undefined variable: cid E:\xampp\htdocs\SmartOrder\Runtime\Cache\Cash\748279a760db963d3da7e0dc3d033a93.php 第 128 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: Run Common\Behavior\CronRunBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004000s ]
+
+[ 2018-01-27T14:54:49+08:00 ] ::1 /SmartOrder/Cash/other/adslist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant Cash - assumed 'Cash' E:\xampp\htdocs\SmartOrder\Application\Cash\Conf\config.php 第 7 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `so_ads` [ RunTime:0.0420s ]
+SQL: UPDATE `so_ads` SET `is_delete`='1' WHERE `endtime` < '2018-01-27' [ RunTime:0.0010s ]
+SQL: UPDATE `so_ads` SET `is_delete`='0' WHERE `endtime` > '2018-01-27' [ RunTime:0.0000s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in E:\xampp\htdocs\SmartOrder\Application\Cash\Controller\OtherController.class.php on line 92 and defined E:\xampp\htdocs\SmartOrder\ThinkPHP\Library\Think\Model.class.php 第 1765 行.
+NOTIC: [8] Undefined variable: where E:\xampp\htdocs\SmartOrder\ThinkPHP\Library\Think\Model.class.php 第 1773 行.
+NOTIC: [8] Undefined variable: where E:\xampp\htdocs\SmartOrder\ThinkPHP\Library\Think\Model.class.php 第 1776 行.
+NOTIC: [8] Undefined variable: where E:\xampp\htdocs\SmartOrder\ThinkPHP\Library\Think\Model.class.php 第 1784 行.
+SQL: SELECT * FROM `so_ads`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: address E:\xampp\htdocs\SmartOrder\Runtime\Cache\Cash\6082d2e3e99b054926a43dd6d4e04449.php 第 173 行.
+NOTIC: [8] Undefined index: address E:\xampp\htdocs\SmartOrder\Runtime\Cache\Cash\6082d2e3e99b054926a43dd6d4e04449.php 第 173 行.
+NOTIC: [8] Undefined index: address E:\xampp\htdocs\SmartOrder\Runtime\Cache\Cash\6082d2e3e99b054926a43dd6d4e04449.php 第 173 行.
+NOTIC: [8] Undefined index: address E:\xampp\htdocs\SmartOrder\Runtime\Cache\Cash\6082d2e3e99b054926a43dd6d4e04449.php 第 173 行.
+NOTIC: [8] Undefined index: address E:\xampp\htdocs\SmartOrder\Runtime\Cache\Cash\6082d2e3e99b054926a43dd6d4e04449.php 第 228 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: Run Common\Behavior\CronRunBehavior [ RunTime:0.004000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005000s ]
+
+[ 2018-01-27T14:55:00+08:00 ] ::1 /SmartOrder/Cash/manage/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant Cash - assumed 'Cash' E:\xampp\htdocs\SmartOrder\Application\Cash\Conf\config.php 第 7 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Cash\Model\ManageModel::Add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) E:\xampp\htdocs\SmartOrder\Application\Cash\Model\ManageModel.class.php 第 8 行.
+SQL: SHOW COLUMNS FROM `so_hall` [ RunTime:0.0030s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in E:\xampp\htdocs\SmartOrder\Application\Cash\Model\ManageModel.class.php on line 18 and defined E:\xampp\htdocs\SmartOrder\ThinkPHP\Library\Think\Model.class.php 第 1765 行.
+NOTIC: [8] Undefined variable: where E:\xampp\htdocs\SmartOrder\ThinkPHP\Library\Think\Model.class.php 第 1773 行.
+NOTIC: [8] Undefined variable: where E:\xampp\htdocs\SmartOrder\ThinkPHP\Library\Think\Model.class.php 第 1776 行.
+NOTIC: [8] Undefined variable: where E:\xampp\htdocs\SmartOrder\ThinkPHP\Library\Think\Model.class.php 第 1784 行.
+SQL: SELECT * FROM `so_hall`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `so_table` [ RunTime:0.0030s ]
+SQL: SELECT `id`,`table_name` FROM `so_table` WHERE `hall_id` = 1  [ RunTime:0.0010s ]
+SQL: SELECT `id`,`table_name` FROM `so_table` WHERE `hall_id` = 2  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`table_name` FROM `so_table` WHERE `hall_id` = 3  [ RunTime:0.0010s ]
+SQL: SELECT `id`,`table_name` FROM `so_table` WHERE `hall_id` = 4  [ RunTime:0.0010s ]
+SQL: SELECT `id`,`table_name` FROM `so_table` WHERE `hall_id` = 5  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: Run Common\Behavior\CronRunBehavior [ RunTime:0.005001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006001s ]
+
+[ 2018-01-27T14:55:01+08:00 ] ::1 /SmartOrder/Cash/book/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant Cash - assumed 'Cash' E:\xampp\htdocs\SmartOrder\Application\Cash\Conf\config.php 第 7 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `so_book` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `so_book` WHERE `book_status` = 0  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `so_book` WHERE `book_status` = 0  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `so_table` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `so_table` WHERE `id` = 9  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `so_hall` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `so_hall` WHERE `id` = 2  [ RunTime:0.0010s ]
+NOTIC: [2] Missing argument 1 for Cash\Model\TableModel::getTableInfo(), called in E:\xampp\htdocs\SmartOrder\Application\Cash\Controller\BookController.class.php on line 21 and defined E:\xampp\htdocs\SmartOrder\Application\Cash\Model\TableModel.class.php 第 24 行.
+NOTIC: [2048] Declaration of Admin\Model\TableModel::Add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) E:\xampp\htdocs\SmartOrder\Application\Admin\Model\TableModel.class.php 第 93 行.
+SQL: SHOW COLUMNS FROM `so_table` [ RunTime:0.0030s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in E:\xampp\htdocs\SmartOrder\Application\Admin\Model\TableModel.class.php on line 38 and defined E:\xampp\htdocs\SmartOrder\ThinkPHP\Library\Think\Model.class.php 第 1765 行.
+NOTIC: [8] Undefined variable: where E:\xampp\htdocs\SmartOrder\ThinkPHP\Library\Think\Model.class.php 第 1773 行.
+NOTIC: [8] Undefined variable: where E:\xampp\htdocs\SmartOrder\ThinkPHP\Library\Think\Model.class.php 第 1776 行.
+NOTIC: [8] Undefined variable: where E:\xampp\htdocs\SmartOrder\ThinkPHP\Library\Think\Model.class.php 第 1784 行.
+SQL: SELECT * FROM `so_hall`  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`table_name` FROM `so_table` WHERE `hall_id` = 1  [ RunTime:0.0010s ]
+SQL: SELECT `id`,`table_name` FROM `so_table` WHERE `hall_id` = 2  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`table_name` FROM `so_table` WHERE `hall_id` = 3  [ RunTime:0.0010s ]
+SQL: SELECT `id`,`table_name` FROM `so_table` WHERE `hall_id` = 4  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`table_name` FROM `so_table` WHERE `hall_id` = 5  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: date E:\xampp\htdocs\SmartOrder\Application\Cash\Model\TableModel.class.php 第 31 行.
+SQL: SELECT `book_day`,`book_time`,`book_name` FROM `so_book` WHERE `book_table` = 1 AND `book_status` = 0 AND `book_day` = null  [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `so_table` WHERE `id` = 1 AND `is_lock` = 1 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: type E:\xampp\htdocs\SmartOrder\Application\Cash\Model\TableModel.class.php 第 48 行.
+NOTIC: [8] Undefined variable: date E:\xampp\htdocs\SmartOrder\Application\Cash\Model\TableModel.class.php 第 31 行.
+SQL: SELECT `book_day`,`book_time`,`book_name` FROM `so_book` WHERE `book_table` = 8 AND `book_status` = 0 AND `book_day` = null  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `so_table` WHERE `id` = 8 AND `is_lock` = 1 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: type E:\xampp\htdocs\SmartOrder\Application\Cash\Model\TableModel.class.php 第 48 行.
+NOTIC: [8] Undefined variable: date E:\xampp\htdocs\SmartOrder\Application\Cash\Model\TableModel.class.php 第 31 行.
+SQL: SELECT `book_day`,`book_time`,`book_name` FROM `so_book` WHERE `book_table` = 15 AND `book_status` = 0 AND `book_day` = null  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `so_table` WHERE `id` = 15 AND `is_lock` = 1 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: type E:\xampp\htdocs\SmartOrder\Application\Cash\Model\TableModel.class.php 第 48 行.
+NOTIC: [8] Undefined variable: date E:\xampp\htdocs\SmartOrder\Application\Cash\Model\TableModel.class.php 第 31 行.
+SQL: SELECT `book_day`,`book_time`,`book_name` FROM `so_book` WHERE `book_table` = 21 AND `book_status` = 0 AND `book_day` = null  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `so_table` WHERE `id` = 21 AND `is_lock` = 1 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: type E:\xampp\htdocs\SmartOrder\Application\Cash\Model\TableModel.class.php 第 48 行.
+NOTIC: [8] Undefined variable: date E:\xampp\htdocs\SmartOrder\Application\Cash\Model\TableModel.class.php 第 31 行.
+SQL: SELECT `book_day`,`book_time`,`book_name` FROM `so_book` WHERE `book_table` = 29 AND `book_status` = 0 AND `book_day` = null  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `so_table` WHERE `id` = 29 AND `is_lock` = 1 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: date E:\xampp\htdocs\SmartOrder\Application\Cash\Model\TableModel.class.php 第 31 行.
+SQL: SELECT `book_day`,`book_time`,`book_name` FROM `so_book` WHERE `book_table` = 30 AND `book_status` = 0 AND `book_day` = null  [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `so_table` WHERE `id` = 30 AND `is_lock` = 1 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: date E:\xampp\htdocs\SmartOrder\Application\Cash\Model\TableModel.class.php 第 31 行.
+SQL: SELECT `book_day`,`book_time`,`book_name` FROM `so_book` WHERE `book_table` = 31 AND `book_status` = 0 AND `book_day` = null  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `so_table` WHERE `id` = 31 AND `is_lock` = 1 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: date E:\xampp\htdocs\SmartOrder\Application\Cash\Model\TableModel.class.php 第 31 行.
+SQL: SELECT `book_day`,`book_time`,`book_name` FROM `so_book` WHERE `book_table` = 2 AND `book_status` = 0 AND `book_day` = null  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `so_table` WHERE `id` = 2 AND `is_lock` = 1 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: type E:\xampp\htdocs\SmartOrder\Application\Cash\Model\TableModel.class.php 第 48 行.
+NOTIC: [8] Undefined variable: date E:\xampp\htdocs\SmartOrder\Application\Cash\Model\TableModel.class.php 第 31 行.
+SQL: SELECT `book_day`,`book_time`,`book_name` FROM `so_book` WHERE `book_table` = 9 AND `book_status` = 0 AND `book_day` = null  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `so_table` WHERE `id` = 9 AND `is_lock` = 1 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: date E:\xampp\htdocs\SmartOrder\Application\Cash\Model\TableModel.class.php 第 31 行.
+SQL: SELECT `book_day`,`book_time`,`book_name` FROM `so_book` WHERE `book_table` = 11 AND `book_status` = 0 AND `book_day` = null  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `so_table` WHERE `id` = 11 AND `is_lock` = 1 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: date E:\xampp\htdocs\SmartOrder\Application\Cash\Model\TableModel.class.php 第 31 行.
+SQL: SELECT `book_day`,`book_time`,`book_name` FROM `so_book` WHERE `book_table` = 20 AND `book_status` = 0 AND `book_day` = null  [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `so_table` WHERE `id` = 20 AND `is_lock` = 1 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: date E:\xampp\htdocs\SmartOrder\Application\Cash\Model\TableModel.class.php 第 31 行.
+SQL: SELECT `book_day`,`book_time`,`book_name` FROM `so_book` WHERE `book_table` = 23 AND `book_status` = 0 AND `book_day` = null  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `so_table` WHERE `id` = 23 AND `is_lock` = 1 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: type E:\xampp\htdocs\SmartOrder\Application\Cash\Model\TableModel.class.php 第 48 行.
+NOTIC: [8] Undefined variable: date E:\xampp\htdocs\SmartOrder\Application\Cash\Model\TableModel.class.php 第 31 行.
+SQL: SELECT `book_day`,`book_time`,`book_name` FROM `so_book` WHERE `book_table` = 24 AND `book_status` = 0 AND `book_day` = null  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `so_table` WHERE `id` = 24 AND `is_lock` = 1 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: date E:\xampp\htdocs\SmartOrder\Application\Cash\Model\TableModel.class.php 第 31 行.
+SQL: SELECT `book_day`,`book_time`,`book_name` FROM `so_book` WHERE `book_table` = 27 AND `book_status` = 0 AND `book_day` = null  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `so_table` WHERE `id` = 27 AND `is_lock` = 1 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: date E:\xampp\htdocs\SmartOrder\Application\Cash\Model\TableModel.class.php 第 31 行.
+SQL: SELECT `book_day`,`book_time`,`book_name` FROM `so_book` WHERE `book_table` = 18 AND `book_status` = 0 AND `book_day` = null  [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `so_table` WHERE `id` = 18 AND `is_lock` = 1 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: date E:\xampp\htdocs\SmartOrder\Application\Cash\Model\TableModel.class.php 第 31 行.
+SQL: SELECT `book_day`,`book_time`,`book_name` FROM `so_book` WHERE `book_table` = 25 AND `book_status` = 0 AND `book_day` = null  [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `so_table` WHERE `id` = 25 AND `is_lock` = 1 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: type E:\xampp\htdocs\SmartOrder\Application\Cash\Model\TableModel.class.php 第 48 行.
+NOTIC: [8] Undefined variable: date E:\xampp\htdocs\SmartOrder\Application\Cash\Model\TableModel.class.php 第 31 行.
+SQL: SELECT `book_day`,`book_time`,`book_name` FROM `so_book` WHERE `book_table` = 22 AND `book_status` = 0 AND `book_day` = null  [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `so_table` WHERE `id` = 22 AND `is_lock` = 1 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: type E:\xampp\htdocs\SmartOrder\Application\Cash\Model\TableModel.class.php 第 48 行.
+NOTIC: [8] Undefined variable: date E:\xampp\htdocs\SmartOrder\Application\Cash\Model\TableModel.class.php 第 31 行.
+SQL: SELECT `book_day`,`book_time`,`book_name` FROM `so_book` WHERE `book_table` = 26 AND `book_status` = 0 AND `book_day` = null  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `so_table` WHERE `id` = 26 AND `is_lock` = 1 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: type E:\xampp\htdocs\SmartOrder\Application\Cash\Model\TableModel.class.php 第 48 行.
+NOTIC: [8] Undefined variable: date E:\xampp\htdocs\SmartOrder\Application\Cash\Model\TableModel.class.php 第 31 行.
+SQL: SELECT `book_day`,`book_time`,`book_name` FROM `so_book` WHERE `book_table` = 28 AND `book_status` = 0 AND `book_day` = null  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `so_table` WHERE `id` = 28 AND `is_lock` = 1 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: Run Common\Behavior\CronRunBehavior [ RunTime:0.005001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006001s ]
+
+[ 2018-01-27T14:55:09+08:00 ] ::1 /SmartOrder/Cash/table/showTable
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant Cash - assumed 'Cash' E:\xampp\htdocs\SmartOrder\Application\Cash\Conf\config.php 第 7 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `so_table` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `so_temp` [ RunTime:0.0030s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in E:\xampp\htdocs\SmartOrder\Application\Cash\Model\TableModel.class.php on line 58 and defined E:\xampp\htdocs\SmartOrder\ThinkPHP\Library\Think\Model.class.php 第 1765 行.
+NOTIC: [8] Undefined variable: where E:\xampp\htdocs\SmartOrder\ThinkPHP\Library\Think\Model.class.php 第 1773 行.
+NOTIC: [8] Undefined variable: where E:\xampp\htdocs\SmartOrder\ThinkPHP\Library\Think\Model.class.php 第 1776 行.
+NOTIC: [8] Undefined variable: where E:\xampp\htdocs\SmartOrder\ThinkPHP\Library\Think\Model.class.php 第 1784 行.
+SQL: SELECT `table_id`,`holding`,`hold_time` FROM `so_temp`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `so_table_hall` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `so_table_hall` WHERE `is_lock` = 1  [ RunTime:0.0010s ]
+SQL: SELECT `table_id`,`start_time` FROM `so_temp` WHERE `start_time` < 1517025309  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `so_table_hall` WHERE `is_lock` = 1  [ RunTime:0.0010s ]
+NOTIC: [2048] Declaration of Admin\Model\TableModel::Add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) E:\xampp\htdocs\SmartOrder\Application\Admin\Model\TableModel.class.php 第 93 行.
+SQL: SHOW COLUMNS FROM `so_table` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `so_hall` [ RunTime:0.0030s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in E:\xampp\htdocs\SmartOrder\Application\Admin\Model\TableModel.class.php on line 38 and defined E:\xampp\htdocs\SmartOrder\ThinkPHP\Library\Think\Model.class.php 第 1765 行.
+NOTIC: [8] Undefined variable: where E:\xampp\htdocs\SmartOrder\ThinkPHP\Library\Think\Model.class.php 第 1773 行.
+NOTIC: [8] Undefined variable: where E:\xampp\htdocs\SmartOrder\ThinkPHP\Library\Think\Model.class.php 第 1776 行.
+NOTIC: [8] Undefined variable: where E:\xampp\htdocs\SmartOrder\ThinkPHP\Library\Think\Model.class.php 第 1784 行.
+SQL: SELECT * FROM `so_hall`  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`table_name` FROM `so_table` WHERE `hall_id` = 1  [ RunTime:0.0010s ]
+SQL: SELECT `id`,`table_name` FROM `so_table` WHERE `hall_id` = 2  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`table_name` FROM `so_table` WHERE `hall_id` = 3  [ RunTime:0.0010s ]
+SQL: SELECT `id`,`table_name` FROM `so_table` WHERE `hall_id` = 4  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`table_name` FROM `so_table` WHERE `hall_id` = 5  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `so_book` [ RunTime:0.0040s ]
+SQL: SELECT `book_day`,`book_time`,`book_name` FROM `so_book` WHERE `book_table` = 1 AND `book_status` = 0 AND `book_day` = '2018-01-27'  [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `so_table` WHERE `id` = 1 AND `is_lock` = 1 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: type E:\xampp\htdocs\SmartOrder\Application\Cash\Model\TableModel.class.php 第 48 行.
+SQL: SELECT `book_day`,`book_time`,`book_name` FROM `so_book` WHERE `book_table` = 8 AND `book_status` = 0 AND `book_day` = '2018-01-27'  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `so_table` WHERE `id` = 8 AND `is_lock` = 1 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: type E:\xampp\htdocs\SmartOrder\Application\Cash\Model\TableModel.class.php 第 48 行.
+SQL: SELECT `book_day`,`book_time`,`book_name` FROM `so_book` WHERE `book_table` = 15 AND `book_status` = 0 AND `book_day` = '2018-01-27'  [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `so_table` WHERE `id` = 15 AND `is_lock` = 1 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: type E:\xampp\htdocs\SmartOrder\Application\Cash\Model\TableModel.class.php 第 48 行.
+SQL: SELECT `book_day`,`book_time`,`book_name` FROM `so_book` WHERE `book_table` = 21 AND `book_status` = 0 AND `book_day` = '2018-01-27'  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `so_table` WHERE `id` = 21 AND `is_lock` = 1 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: type E:\xampp\htdocs\SmartOrder\Application\Cash\Model\TableModel.class.php 第 48 行.
+SQL: SELECT `book_day`,`book_time`,`book_name` FROM `so_book` WHERE `book_table` = 29 AND `book_status` = 0 AND `book_day` = '2018-01-27'  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `so_table` WHERE `id` = 29 AND `is_lock` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `book_day`,`book_time`,`book_name` FROM `so_book` WHERE `book_table` = 30 AND `book_status` = 0 AND `book_day` = '2018-01-27'  [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `so_table` WHERE `id` = 30 AND `is_lock` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `book_day`,`book_time`,`book_name` FROM `so_book` WHERE `book_table` = 31 AND `book_status` = 0 AND `book_day` = '2018-01-27'  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `so_table` WHERE `id` = 31 AND `is_lock` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `book_day`,`book_time`,`book_name` FROM `so_book` WHERE `book_table` = 2 AND `book_status` = 0 AND `book_day` = '2018-01-27'  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `so_table` WHERE `id` = 2 AND `is_lock` = 1 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: type E:\xampp\htdocs\SmartOrder\Application\Cash\Model\TableModel.class.php 第 48 行.
+SQL: SELECT `book_day`,`book_time`,`book_name` FROM `so_book` WHERE `book_table` = 9 AND `book_status` = 0 AND `book_day` = '2018-01-27'  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `so_table` WHERE `id` = 9 AND `is_lock` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `book_day`,`book_time`,`book_name` FROM `so_book` WHERE `book_table` = 11 AND `book_status` = 0 AND `book_day` = '2018-01-27'  [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `so_table` WHERE `id` = 11 AND `is_lock` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `book_day`,`book_time`,`book_name` FROM `so_book` WHERE `book_table` = 20 AND `book_status` = 0 AND `book_day` = '2018-01-27'  [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `so_table` WHERE `id` = 20 AND `is_lock` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `book_day`,`book_time`,`book_name` FROM `so_book` WHERE `book_table` = 23 AND `book_status` = 0 AND `book_day` = '2018-01-27'  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `so_table` WHERE `id` = 23 AND `is_lock` = 1 LIMIT 1   [ RunTime:0.0270s ]
+NOTIC: [8] Undefined index: type E:\xampp\htdocs\SmartOrder\Application\Cash\Model\TableModel.class.php 第 48 行.
+SQL: SELECT `book_day`,`book_time`,`book_name` FROM `so_book` WHERE `book_table` = 24 AND `book_status` = 0 AND `book_day` = '2018-01-27'  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `so_table` WHERE `id` = 24 AND `is_lock` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `book_day`,`book_time`,`book_name` FROM `so_book` WHERE `book_table` = 27 AND `book_status` = 0 AND `book_day` = '2018-01-27'  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `so_table` WHERE `id` = 27 AND `is_lock` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `book_day`,`book_time`,`book_name` FROM `so_book` WHERE `book_table` = 18 AND `book_status` = 0 AND `book_day` = '2018-01-27'  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `so_table` WHERE `id` = 18 AND `is_lock` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `book_day`,`book_time`,`book_name` FROM `so_book` WHERE `book_table` = 25 AND `book_status` = 0 AND `book_day` = '2018-01-27'  [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `so_table` WHERE `id` = 25 AND `is_lock` = 1 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: type E:\xampp\htdocs\SmartOrder\Application\Cash\Model\TableModel.class.php 第 48 行.
+SQL: SELECT `book_day`,`book_time`,`book_name` FROM `so_book` WHERE `book_table` = 22 AND `book_status` = 0 AND `book_day` = '2018-01-27'  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `so_table` WHERE `id` = 22 AND `is_lock` = 1 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: type E:\xampp\htdocs\SmartOrder\Application\Cash\Model\TableModel.class.php 第 48 行.
+SQL: SELECT `book_day`,`book_time`,`book_name` FROM `so_book` WHERE `book_table` = 26 AND `book_status` = 0 AND `book_day` = '2018-01-27'  [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `so_table` WHERE `id` = 26 AND `is_lock` = 1 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: type E:\xampp\htdocs\SmartOrder\Application\Cash\Model\TableModel.class.php 第 48 行.
+SQL: SELECT `book_day`,`book_time`,`book_name` FROM `so_book` WHERE `book_table` = 28 AND `book_status` = 0 AND `book_day` = '2018-01-27'  [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `so_table` WHERE `id` = 28 AND `is_lock` = 1 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: info E:\xampp\htdocs\SmartOrder\Runtime\Cache\Cash\5647ca14edb9bdf98405dba803324ae2.php 第 133 行.
+NOTIC: [8] Undefined index: info E:\xampp\htdocs\SmartOrder\Runtime\Cache\Cash\5647ca14edb9bdf98405dba803324ae2.php 第 133 行.
+NOTIC: [8] Undefined index: info E:\xampp\htdocs\SmartOrder\Runtime\Cache\Cash\5647ca14edb9bdf98405dba803324ae2.php 第 133 行.
+NOTIC: [8] Undefined index: info E:\xampp\htdocs\SmartOrder\Runtime\Cache\Cash\5647ca14edb9bdf98405dba803324ae2.php 第 133 行.
+NOTIC: [8] Undefined index: info E:\xampp\htdocs\SmartOrder\Runtime\Cache\Cash\5647ca14edb9bdf98405dba803324ae2.php 第 133 行.
+NOTIC: [8] Undefined index: info E:\xampp\htdocs\SmartOrder\Runtime\Cache\Cash\5647ca14edb9bdf98405dba803324ae2.php 第 133 行.
+NOTIC: [8] Undefined index: info E:\xampp\htdocs\SmartOrder\Runtime\Cache\Cash\5647ca14edb9bdf98405dba803324ae2.php 第 133 行.
+NOTIC: [8] Undefined index: info E:\xampp\htdocs\SmartOrder\Runtime\Cache\Cash\5647ca14edb9bdf98405dba803324ae2.php 第 133 行.
+NOTIC: [8] Undefined index: info E:\xampp\htdocs\SmartOrder\Runtime\Cache\Cash\5647ca14edb9bdf98405dba803324ae2.php 第 133 行.
+NOTIC: [8] Undefined index: info E:\xampp\htdocs\SmartOrder\Runtime\Cache\Cash\5647ca14edb9bdf98405dba803324ae2.php 第 133 行.
+NOTIC: [8] Undefined index: info E:\xampp\htdocs\SmartOrder\Runtime\Cache\Cash\5647ca14edb9bdf98405dba803324ae2.php 第 133 行.
+NOTIC: [8] Undefined index: info E:\xampp\htdocs\SmartOrder\Runtime\Cache\Cash\5647ca14edb9bdf98405dba803324ae2.php 第 133 行.
+NOTIC: [8] Undefined index: info E:\xampp\htdocs\SmartOrder\Runtime\Cache\Cash\5647ca14edb9bdf98405dba803324ae2.php 第 133 行.
+NOTIC: [8] Undefined index: info E:\xampp\htdocs\SmartOrder\Runtime\Cache\Cash\5647ca14edb9bdf98405dba803324ae2.php 第 133 行.
+NOTIC: [8] Undefined index: info E:\xampp\htdocs\SmartOrder\Runtime\Cache\Cash\5647ca14edb9bdf98405dba803324ae2.php 第 133 行.
+NOTIC: [8] Undefined index: info E:\xampp\htdocs\SmartOrder\Runtime\Cache\Cash\5647ca14edb9bdf98405dba803324ae2.php 第 133 行.
+NOTIC: [8] Undefined index: info E:\xampp\htdocs\SmartOrder\Runtime\Cache\Cash\5647ca14edb9bdf98405dba803324ae2.php 第 133 行.
+NOTIC: [8] Undefined index: info E:\xampp\htdocs\SmartOrder\Runtime\Cache\Cash\5647ca14edb9bdf98405dba803324ae2.php 第 133 行.
+NOTIC: [8] Undefined index: info E:\xampp\htdocs\SmartOrder\Runtime\Cache\Cash\5647ca14edb9bdf98405dba803324ae2.php 第 133 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: Run Common\Behavior\CronRunBehavior [ RunTime:0.008000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.009000s ]
+

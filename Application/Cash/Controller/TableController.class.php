@@ -5,6 +5,10 @@ use Think\Controller;
 Class TableController extends CommonController{
 	//显示桌号
 	public function showTable(){
+		$holdInfo = D("Table")->getHoldInfo();
+		$longTime = D("Table")->getLongTime();
+		$this->assign('longTime',$longTime);
+		$this->assign('holdInfo',$holdInfo);
 		$day=I("date"); 
 		$day=$day==""?date("Y-m-d"):$day;  
 		$tableInfo=D("Table")->getTableInfo($day); 

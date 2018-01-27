@@ -9,6 +9,8 @@
     <link rel="stylesheet" type="text/css" href="/smartorder/Public/Admin/css/module.css">
     <link rel="stylesheet" type="text/css" href="/smartorder/Public/Admin/css/style.css" media="all">
     
+    <link rel="stylesheet" type="text/css" href="/smartorder/Public/Admin/css/order.css">
+    
 	<!-- <link rel="stylesheet" type="text/css" href="/smartorder/Public/Admin/css/<?php echo (C("COLOR_STYLE")); ?>.css" media="all"> -->
      <!--[if lt IE 9]>
     <script type="text/javascript" src="/smartorder/Public/static/jquery-1.10.2.min.js"></script>
@@ -18,6 +20,10 @@
     <script type="text/javascript" src="/smartorder/Public/Admin/js/jquery.mousewheel.js"></script>
     <script type="text/javascript" src="/smartorder/Public/static/avalon/somefunction.js"></script>
     <script type="text/javascript" src="/smartorder/Public/static/count/exporting.js"></script>
+    
+    <script type="text/javascript" src="/smartorder/Public/Admin/js/order.js"></script>
+    <script type="text/javascript" src="/smartorder/Public/Admin/js/echarts.js"></script>
+    <script type="text/javascript" src="/smartorder/Public/Admin/js/echarts.min.js"></script>
    
     <!--<![endif]-->
     <script type="text/javascript">
@@ -36,7 +42,6 @@
 </head>
 <body>
     <!-- 头部 -->
-
     <div class="header">
         <!-- Logo -->
         <span class="logo"></span>
@@ -80,7 +85,6 @@
             </div>
         
         <!-- /子导航 -->
-        
     </div>
     <!-- /边栏 -->
 

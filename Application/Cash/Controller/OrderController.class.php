@@ -13,10 +13,10 @@ Class OrderController extends CommonController{
 		// 	getSearch();
 		// }
 		$tableTree = D("table")->getTableInfo();
-		$holdInfo = D("order")->getHoldInfo();
-		$longTime = D("order")->getLongTime();
-		$this->assign('longTime',$longTime);
-		$this->assign('holdInfo',$holdInfo);
+		// $holdInfo = D("order")->getHoldInfo();
+		// $longTime = D("order")->getLongTime();
+		// $this->assign('longTime',$longTime);
+		// $this->assign('holdInfo',$holdInfo);
 		$this->assign("tableTree",$tableTree);
 		$this->assign("meta_title","结账");
 		$this->display("index");

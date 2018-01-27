@@ -31,7 +31,6 @@ Class TableController extends Controller {
 			case 'remove':
 				//解绑
 				$ret = $check->RemoveTable($uuId,$tableId);
-				dump($ret);die;
 				$this->ajaxReturn($ret,"jsonp");
 			default:
 				$this->ajaxReturn("请求参数有误",'jsonp');
